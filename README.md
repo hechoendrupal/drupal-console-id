@@ -10,7 +10,7 @@ Drupal Console project it's installed per each Drupal 8 website with English lan
 To install Drupal Console package for Indonesian language run the following instructions
 
 ```
-$ composer require drupal/console-es
+$ composer require drupal/console-id
 ```
 
 ### Install Drupal Console
@@ -68,7 +68,7 @@ Drupal Console project it's installed per each Drupal 8 website with English lan
 To installe Drupal Console package for Indonesian language run the following instructions
 
 ```
-$ composer require drupal/console-es
+$ composer require drupal/console-id
 ```
 
 ### Install Drupal Console
