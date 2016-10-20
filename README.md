@@ -1,4 +1,4 @@
-# drupal-console-es
+# drupal-console-id
 DrupalConsole Indonesian Language / di Bahasa Indonesia
 
 # Versi di Bahasa Indonesia
