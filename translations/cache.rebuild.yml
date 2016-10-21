@@ -1,17 +1,17 @@
-description: 'Rebuild and clear all site caches.'
+description: 'Bangun ulang dan bersihkan semua cache situs.'
 options:
-    cache: 'Only clear a specific cache.'
+    cache: 'Hanya hapus cache tertentu.'
 messages:
-    welcome: 'Welcome to the cache:rebuild command'
-    rebuild: 'Rebuilding cache(s), wait a moment please.'
-    completed: 'Done clearing cache(s).'
-    invalid_cache: 'Cache "%s" is invalid.'
+    welcome: 'Selamat datang di perintah cache:rebuild'
+    rebuild: 'Membangun ulang cache, mohon menunggu.'
+    completed: 'Selesai membersihkan cache.'
+    invalid_cache: 'Cache "%s" tidak valid'
 questions:
-    cache: 'Select cache.'
+    cache: 'Pilih cache.'
 examples:
     -
-        description: 'Rebuild all caches'
+        description: 'Bangun ulang semua cache'
         execution: 'drupal cr all'
     -
-        description: 'Rebuild discovery cache'
+        description: 'Bangun ulang cache discovery'
         execution: 'drupal cr discovery'
