@@ -7,7 +7,7 @@ DrupalConsole Indonesian Language / Bahasa Indonesia
 
 Proyek Drupal Console diinstal pada tiap website Drupal 8 dengan menggunakan bahasa Inggris sebagai bawaan.
 
-Untuk menginstall Paket Drupal Console dengan bahasa Indonesia jalankan perintah berikut ini
+Untuk menginstal Paket Drupal Console dengan bahasa Indonesia jalankan perintah berikut ini
 
 ```
 $ composer require drupal/console-id
@@ -23,7 +23,7 @@ $ composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
 
 ### Instal Drupal Console launcher
 
-Untuk mengindari konflik antara rilis Drupal dan versi Drupal Console di antara rilis major dan minor Drupal, dibuatlah Drupal Console launcer untuk memuat perintah-perintah Drupal Console yang tersedia untuk setiap website Drupal 8.
+Untuk mengindari konflik antara rilis Drupal dan versi Drupal Console di antara rilis major dan minor Drupal, dibuatlah Drupal Console launcher untuk memuat perintah-perintah Drupal Console yang tersedia untuk setiap website Drupal 8.
 
 Ikuti perintah di bawah ini untuk menginstal aplikasi global untuk Drupal Console launcher.
 

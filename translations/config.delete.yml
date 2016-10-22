@@ -1,18 +1,18 @@
-description: 'Delete configuration'
+description: 'Hapus konfigurasi'
 arguments:
-    type: 'Configuration type.'
-    name: 'Configuration name.'
+    type: 'Tipe konfigurasi.'
+    name: 'Nama konfigurasi.'
 messages:
-    all: 'All configuration sucessfully deleted.'
-    deleted: 'Configuration "%s" sucessfully deleted.'
-    name: 'Configuration name must contain a value.'
-    not-exists: 'The configuration "%s" does not exists.'
+    all: 'Semua konfigurasi telah dihapuskan.'
+    deleted: 'Konfigurasi "%s" telah dihapus.'
+    name: 'Nama konfigurasi harus berisi nilai.'
+    not-exists: 'Konfigurasi "%s" tidak terdaftar.'
 errors:
-    config-storage: 'Configuration type would not be loaded.'
-    name: 'Configuration name must contain a value.'
-    type: 'Configuration type is missing.'
-    not-exists: 'The configuration "%s" does not exists.'
+    config-storage: 'Tipe konfigurasi tidak akan dimuat.'
+    name: 'Nama konfigurasi harus berisi nilai.'
+    type: 'Tipe konfigurasi tidak dapat ditemukan.'
+    not-exists: 'Konfigurasi "%s" tidak terdaftar.'
 warnings:
-    undo: 'This action will delete all configuration permanentaly.'
+    undo: 'Aksi ini akan menghapus semua konfigurasi secara permanen.'
 questions:
-    sure: 'Are you sure to delete all configuration'
+    sure: 'Apakah anda yakin menghapus semua konfigurasi'

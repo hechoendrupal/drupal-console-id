@@ -1,14 +1,14 @@
-description: 'Ouput configuration items that are different in active configuration compared with a directory.'
+description: 'Keluaran item konfigurasi aktif yang berbeda dibandingkan dengan pada direktori.'
 arguments:
-    directory: 'The directory to diff against. If omitted, choose from Drupal config directories.'
+    directory: 'Direktori pembanding. Jika hilang, pilih dari direktori konfigurasi Drupal.'
 options:
-    reverse: 'See the changes in reverse (i.e diff a directory to the active configuration).'
+    reverse: 'Lihat perubahan secara terbalik (yaitu membandingkan direktori kepada konfigurasi aktif).'
 questions:
-    directories: 'Config directory:'
+    directories: 'Direktori konfigurasi:'
 table:
     headers:
-        collection: Collection
-        config-name: 'Configuration item'
-        operation: Operation
+        collection: Koleksi
+        config-name: 'Item konfigurasi'
+        operation: Operasi
 messages:
-    no-changes: 'There are no changes.'
+    no-changes: 'Tidak ada perubahan.'

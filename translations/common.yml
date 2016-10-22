@@ -1,46 +1,46 @@
 options:
-    class: 'Class name'
-    events: 'Load events from the container'
-    module: 'The Module name.'
-    services: 'Load services from the container.'
-    tags: 'Set service tags from the container.'
-    inputs: 'Create inputs in a form.'
-    permissions: 'Create permissions.'
+    class: 'Nama Kelas'
+    events: 'Memuat event dari kontainer'
+    module: 'Nama modul.'
+    services: 'Memuat servis dari kontainer.'
+    tags: 'Mengatur tag servis dari kontainer.'
+    inputs: 'Buat input dalam formulir.'
+    permissions: 'Buat izin.'
 questions:
-    class: 'Enter the Class name'
-    module: 'Enter the module name'
-    confirm: 'Do you confirm generation?'
-    canceled: 'Command generation canceled.'
+    class: 'Masukkan nama Kelas'
+    module: 'Masukkan nama modul'
+    confirm: 'Apakah anda yakin untuk generasi?'
+    canceled: 'Perintah generasi telah dibatalkan.'
     events:
-        message: "\nType the event name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
-        name: 'Enter event name'
+        message: "\nMasukkan nama event atau gunakan keyup atau keydown.\nIni tidak harus, tekan <info>enter</info> untuk <info>melanjutkan</info>\n"
+        name: 'Masukkan nama event'
     services:
-        confirm: 'Do you want to load services from the container'
-        message: "\nType the service name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
-        name: 'Enter your service'
+        confirm: 'Apakah anda ingin memuat servis dari kontainer'
+        message: "\nMasukkan nama servis atau gunakan keyup atau keydown.\nIni tidak harus, tekan <info>enter</info> untuk <info>melanjutkan</info>\n"
+        name: 'Masukkan servis anda'
     inputs:
-        confirm: 'Do you want to generate a form structure?'
-        label: 'Input label'
-        machine_name: 'Input machine name'
-        permission: 'Do you want to generate permissions?'
-        type: Type
-        invalid: 'Field Type "%s" is invalid.'
-        description: Description
-        default-value: 'Default value'
-        weight: 'Weight for input item'
-        title: Title
+        confirm: 'Apakah anda ingin menggenerasi sebuah struktur formulir?'
+        label: 'Label input'
+        machine_name: 'Masukkan nama mesin'
+        permission: 'Apakah anda ingin menggenerasi izin?'
+        type: tipe
+        invalid: 'Tipe Field "%s" tidak valid.'
+        description: Deskripsi
+        default-value: 'Nilai bawaan'
+        weight: 'Berat dari item input'
+        title: Judul
         fieldset: Fieldset
 errors:
-    module-dependency: 'Missing module dependency "%s" is not installed. Try module:install to install it.'
-    class-name-empty: 'The Class name can not be empty'
-    invalid-file-path: 'You must provide a valid file path'
-    module-exist: 'Module "%s" already exist.'
-    machine-name-duplicated: 'Machine name "%s" is duplicated.'
+    module-dependency: 'Modul prasyarat "%s" tidak terpasang. Coba module:install untuk memasangkannya.'
+    class-name-empty: 'nama Kelas tidak boleh kosong'
+    invalid-file-path: 'Anda harus menyediakan path berkas yang valid'
+    module-exist: 'Modul "%s" sudah ada.'
+    machine-name-duplicated: 'Nama mesin "%s" terduplikasi.'
 status:
-    enabled: Enabled
-    disabled: Disabled
+    enabled: Aktif
+    disabled: 'Non Aktif'
 messages:
-    canceled: 'The generation was cancelled'
-    drupal-core: 'Drupal Core'
-    move-phar: 'Accessing console from anywhere on your system'
+    canceled: 'Generasi dibatalkan'
+    drupal-core: 'Inti Drupal'
+    move-phar: 'Mengakses konsol dari manapun dalam sistem anda'
     quick-start: 'Unduh, install dan sajikan Drupal 8'

@@ -1,13 +1,13 @@
-description: 'Chain command execution'
+description: 'Perintah eksekusi Chain'
 options:
-    file: 'User defined file containing commands to get executed.'
+    file: 'Berkas yang ditetapkan pengguna yang berisi perintah yang akan dieksekusi.'
 questions:
-    chain-file: 'Select chain file to execute'
+    chain-file: 'Pilih berkas chain untuk dieksekusi'
 messages:
-    missing_file: 'You must provide a valid file path and name.'
-    invalid_file: 'The file "%s" does not exists.'
-    module_install: 'module:install command is not runnable inside a chain queue and must be run independently.'
-    missing-environment-placeholders: 'Missing environment placeholder(s) "%s"'
-    set-environment-placeholders: 'Set environment placeholders as:'
-    missing-inline-placeholders: 'Missing inline placeholder(s) "%s"'
-    set-inline-placeholders: 'Pass inline placeholders as:'
+    missing_file: 'Anda harus menyediakan path dan nama berkas yang valid.'
+    invalid_file: 'Berkas "%s" tidak ditemukan.'
+    module_install: 'perintah module:install tidak dapat dijalankan di dalam rantai antrean dan harus dijalankan secara independen.'
+    missing-environment-placeholders: 'Placeholder environment "%s" tidak dapat ditemukan'
+    set-environment-placeholders: 'Atur environment placeholder sebagai:'
+    missing-inline-placeholders: 'Inline placeholder "%s" tidak dapat ditemukan'
+    set-inline-placeholders: 'lewati inline placeholders sebagai:'

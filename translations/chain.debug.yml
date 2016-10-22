@@ -1,4 +1,4 @@
-description: 'List available chain files.'
+description: 'Daftar berkas chain yang tersedia.'
 messages:
-    directory: Directory
-    file: 'Chain file name.'
+    directory: Direktori
+    file: 'Nama berkas chain.'
