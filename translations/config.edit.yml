@@ -1,8 +1,8 @@
-description: 'Edit the selected configuration.'
+description: 'Ubah konfigurasi terpilih.'
 arguments:
-    config-name: 'Configuration name.'
+    config-name: 'Nama konfigurasi.'
     editor: Editor.
 questions:
-    config-name: 'Choose a configuration unit'
+    config-name: 'Pilih uint konfigurasi'
 messages:
-    no-directory: 'An error occurred while creating your directory at'
+    no-directory: 'Sebuah eror terjadi ketika membuat direktori anda pada'
