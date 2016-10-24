@@ -7,5 +7,5 @@ questions:
     name: 'Masukkan nama konfigurasi'
     file: 'Masukkan path berkas yang akan diimpor'
 messages:
-    empty-value: 'Nilai tidak dapat kosong'
+    empty-value: 'Nilai tidak boleh kosong'
     success: 'Konfigurasi "%s" telah diimpor.'

@@ -1,8 +1,8 @@
-description: 'Override config value in active configuration.'
+description: 'Menimpa nilai konfigurasi pada konfigurasi aktif.'
 questions:
-    name: 'Enter Nama konfigurasi'
-    key: 'Enter the configuration key'
-    value: 'Enter the configuration value'
+    name: 'Masukkan nama konfigurasi'
+    key: 'Masukkan key konfigurasi'
+    value: 'Masukkan nilai konfigurasi'
 arguments:
     name: 'Nama konfigurasi'
     key: Key
@@ -10,11 +10,11 @@ arguments:
     config-name: 'Nama konfigurasi.'
 messages:
     configuration: 'Nama konfigurasi'
-    configuration-key: 'Configuration key'
-    original: 'Original Value'
-    updated: 'Override Value'
-    invalid-name: 'Config object "%s", does not exists'
+    configuration-key: 'key konfigurasi'
+    original: 'Nilai asli'
+    updated: 'Nilai timpaan'
+    invalid-name: 'Konfigurasi objek "%s" tidak terdaftar'
 examples:
     -
-        description: 'Set the Contact module flood limit to 10.'
+        description: 'Atur flood limit pada modul Contact menjadi 10.'
         execution: 'drupal config:override contact.settings flood.limit 10'
