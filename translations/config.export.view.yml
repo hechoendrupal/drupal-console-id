@@ -1,13 +1,13 @@
-description: 'Export a view in YAML format inside a provided module to reuse in other website.'
+description: 'Ekspor sebuah view menggunakan format YAML di dalam modul yang disediakan untuk digunakan kembali pada situs web yang lain.'
 messages:
-    view_exported: 'Exporting view'
-    depencies-included: 'The following module dependencies were included at "%s"'
+    view_exported: 'Sedang mengekspor view'
+    depencies-included: 'Prasyarat modul telah dimuat pada "%s"'
 questions:
-    view: 'View to be exported'
-    optional-config: 'Export view in module as an optional configuration'
-    include-module-dependencies: 'Include view module dependencies in module info YAML file'
+    view: 'View yang akan diekspor'
+    optional-config: 'Ekspor view pada modul sebagai konfigurasi yang bersifat opsional'
+    include-module-dependencies: 'Masukkan modul view prasyarat pada berkas modul YAML info'
 arguments:
-    view-id: 'View ID'
+    view-id: 'ID view'
 options:
-    optional-config: 'Export view as an optional YAML configuration in your module'
-    include-module-dependencies: 'Include module dependencies in module info YAML file'
+    optional-config: 'Ekspor view sebagai Konfigurasi YAML yang bersifat opsional pada modul anda'
+    include-module-dependencies: 'Masukkan modul prasyarat pada berkas modul YAML info'

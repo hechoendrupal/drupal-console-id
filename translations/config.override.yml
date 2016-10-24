@@ -1,15 +1,15 @@
 description: 'Override config value in active configuration.'
 questions:
-    name: 'Enter configuration name'
+    name: 'Enter Nama konfigurasi'
     key: 'Enter the configuration key'
     value: 'Enter the configuration value'
 arguments:
-    name: 'Configuration name'
+    name: 'Nama konfigurasi'
     key: Key
     value: Value
-    config-name: 'Configuration name.'
+    config-name: 'Nama konfigurasi.'
 messages:
-    configuration: 'Configuration name'
+    configuration: 'Nama konfigurasi'
     configuration-key: 'Configuration key'
     original: 'Original Value'
     updated: 'Override Value'
