@@ -1,5 +1,5 @@
-description: 'Menampilkan key:value saat ini pada berkas settings.'
-help: 'Perintah <info>config:settings:debug</info> membantu anda menampilkan key:value saat ini pada berkas settings.'
+description: 'Menampilkan key:value terkini pada berkas settings.'
+help: 'Perintah <info>config:settings:debug</info> membantu anda menampilkan key:value terkini pada berkas settings.'
 welcome: 'Selamat datang pada Perintah Debug Pengaturan Konfigurasi Drupal'
 messages:
-    current: 'Key:value saat ini pada berkas settings'
+    current: 'Key:value terkini pada berkas settings'

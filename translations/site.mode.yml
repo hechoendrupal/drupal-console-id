@@ -2,8 +2,8 @@ description: 'Switch system performance configuration'
 arguments:
     environment: 'Environment name [dev, prod]'
 messages:
-    configuration: 'Configuration name'
-    configuration-key: 'Configuration key'
+    configuration: 'Nama konfigurasi'
+    configuration-key: 'key konfigurasi'
     original: 'Original Value'
     updated: 'Override Value'
     invalid-env: 'Invalid environment'

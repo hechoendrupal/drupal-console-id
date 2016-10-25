@@ -1,12 +1,12 @@
-description: 'Displays current services for an application.'
+description: 'Menampilkan servis terkini untuk aplikasi.'
 arguments:
-    service: 'Service name.'
+    service: 'Nama Servis.'
 messages:
-    service_id: 'Service ID'
-    class_name: 'Class Name'
-    service: Service
-    class: Class
-    interface: Interface(s)
-    parent: 'Parent class'
-    variables: Variables
-    methods: Methods
+    service_id: 'ID Servis'
+    class_name: 'Nama Kelas'
+    service: Servis
+    class: Kelas
+    interface: Antarmuka
+    parent: 'Kelas Induk'
+    variables: Variabel
+    methods: Metode

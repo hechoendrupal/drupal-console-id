@@ -1,4 +1,4 @@
-description: 'Ekspor konfigurasi aplikasi saat ini.'
+description: 'Ekspor konfigurasi aplikasi terkini.'
 arguments:
     directory: 'Mendefinisikan direktori ekspor untuk menyimpan keluaran konfigurasi.'
     tar: 'Jika diatur, konfigurasi akan di ekspor pada berkas arsip.'
