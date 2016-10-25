@@ -1,8 +1,8 @@
-description: 'Import configuration to current application.'
+description: 'Impor konfigurasi terhada aplikasi terpilih.'
 arguments:
-    file: 'Path to an archive file of configuration to import.'
-    directory: 'Path to a directory of configuration to import.'
-    remove-files: 'Remove files after synchronization.'
+    file: 'Path berkas arsip dari konfigurasi yang akan diimpor.'
+    directory: 'Path directori dari konfigurasi yang akan diimpor.'
+    remove-files: 'Hapus berkas setelah sinkronisasi.'
 messages:
-    config_files_imported: 'List of config files.'
-    imported: 'Configuration imported successfully.'
+    config_files_imported: 'Daftar dari berkas konfigurasi.'
+    imported: 'Konfigurasi telah diimpor secara sukses.'

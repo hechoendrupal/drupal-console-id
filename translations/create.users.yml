@@ -1,27 +1,27 @@
-description: 'Create dummy users for your Drupal 8 application.'
-help: 'The <info>create:users</info> command helps you create dummy users.'
-welcome: 'Welcome to the Drupal users generator'
+description: 'Membuat contoh pengguna untuk aplikasi Drupal 8 anda.'
+help: 'Perintah <info>create:users</info> membantu anda untuk membuat contoh pengguna.'
+welcome: 'Selamat datang pada generator pengguna pada Drupal'
 arguments:
-    roles: 'Role(s) to be used in user creation'
+    roles: 'Peran-peran yang akan digunakan dalam pembuatan pengguna'
 options:
-    limit: 'How many users would you like to create'
-    password: 'Password to be set to users created'
-    time-range: 'How far back in time should the users be dated'
+    limit: 'Berapa banyak pengguna yang akan anda buat'
+    password: 'Kata sandi yang akan diberikan pada pengguna'
+    time-range: 'Berapa jauh waktu kebelakang pengguna ini diberikan tanggal'
 questions:
-    roles: 'Select role(s) to be used on user creation'
-    limit: 'Enter how many users would you like to generate'
-    password: 'Enter the password to be set to users created'
-    time-range: 'How far back in time should the users be dated?'
+    roles: 'Pilih peran-peran yang akan digunakan untuk pembuatan pengguna'
+    limit: 'Masukkan berapa banyak pengguna yang akan dibuat'
+    password: 'Masukkan sandi yang akan diberikan pada pengguna'
+    time-range: 'Berapa jauh waktu kebelakang pengguna ini diberikan tanggal?'
     time-ranges:
-        - Now
-        - '1 hour ago'
-        - '1 day ago'
-        - '1 week ago'
-        - '1 month ago'
-        - '1 year ago'
+        - 'Now (Sekarang)'
+        - '1 hour ago (1 jam lalu)'
+        - '1 day ago (1 hari lalu)'
+        - '1 week ago (1 minggu lalu)'
+        - '1 month ago (1 bulan lalu)'
+        - '1 year ago (1 tahun lalu)'
 messages:
-    user-id: 'User Id'
-    roles: Roles
-    username: Username
-    created: 'Created Time'
-    created-users: 'Created "%s" users successfully'
+    user-id: 'Id Pengguna'
+    roles: Peran
+    username: 'Nama user'
+    created: 'Tanggal pembuatan'
+    created-users: 'Pengguna "%s" sukses dibuat'

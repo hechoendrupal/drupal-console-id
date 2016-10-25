@@ -1,4 +1,4 @@
-description: 'Menampilkan sumber view saat ini untuk aplikasi'
+description: 'Menampilkan sumber view terkini untuk aplikasi'
 arguments:
     view-id: 'ID view'
     view-tag: 'Etiket view'

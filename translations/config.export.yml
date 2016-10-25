@@ -1,7 +1,7 @@
-description: 'Export current application configuration.'
+description: 'Ekspor konfigurasi aplikasi terkini.'
 arguments:
-    directory: 'Define the export directory to save the configuration output.'
-    tar: 'If set, the configuration will be exported to an archive file.'
+    directory: 'Mendefinisikan direktori ekspor untuk menyimpan keluaran konfigurasi.'
+    tar: 'Jika diatur, konfigurasi akan di ekspor pada berkas arsip.'
 messages:
-    directory: 'The configuration was exported at:'
-    error: 'An error occurred while creating your directory at "%s"'
+    directory: 'Konfigurasi telah di ekspor pada:'
+    error: 'Sebuah eror terjadi ketika membuat direktori anda pada "%s"'

@@ -1,18 +1,18 @@
-description: 'Create dummy terms for your Drupal 8 application.'
-help: 'The <info>create:terms</info> command helps you create dummy terms.'
-welcome: 'Welcome to the Drupal terms creator'
+description: 'Membuat contoh terms untuk aplikasi Drupal 8 anda.'
+help: 'Perintah <info>create:terms</info> membantu anda untuk membuat contoh terms.'
+welcome: 'Selamat datang pada pembuat Drupal terms'
 arguments:
-    vocabularies: 'Vocabulary(s) to be used in terms creation'
+    vocabularies: 'Vocabulary yang akan dibuat dalam pembuatan terms'
 options:
-    limit: 'How many terms would you like to create'
-    name-words: 'Maximum number of words in term names'
+    limit: 'Berapa banyak term yang akan anda buat'
+    name-words: 'Jumlah kata maksimum dalam nama terms'
 questions:
-    vocabularies: 'Select vocabulary(s) to be used on terms creation'
-    limit: 'Enter how many terms would you like to create'
-    name-words: 'Enter the maximum number of words in term names'
+    vocabularies: 'Pilih vocabulary-vocabulary yang akan digunakan dalam pembuatan terms'
+    limit: 'Masukkan berapa banyak terms yang akan anda buat'
+    name-words: 'Masukkan jumlah kata maksimum dalam nama terms'
 messages:
-    term-id: 'Term Id'
+    term-id: 'Id Term'
     vocabulary: Vocabulary
-    name: Name
-    invalid-vocabularies: 'Vocabulary(s) "%s" are invalid'
-    created-terms: 'Created "%s" terms successfully'
+    name: Nama
+    invalid-vocabularies: 'Vocabulary "%s" tidak valid'
+    created-terms: 'Terms "%s" sukses dibuat'

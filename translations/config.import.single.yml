@@ -1,11 +1,11 @@
-description: 'Import the selected configuration.'
+description: 'Impor konfigurasi terpilih.'
 arguments:
-    name: 'Configuration name.'
-    file: 'Path to the import file'
-    input-file: 'Path to the import files.'
+    name: 'Nama konfigurasi.'
+    file: ''
+    input-file: 'Path berkas yang akan diimpor.'
 questions:
-    name: 'Enter configuration name'
-    file: 'Enter path to the import file'
+    name: 'Masukkan nama konfigurasi'
+    file: 'Masukkan path berkas yang akan diimpor'
 messages:
-    empty-value: 'Value can not be empty'
-    success: 'The configuration "%s", had been imported.'
+    empty-value: 'Nilai tidak boleh kosong'
+    success: 'Konfigurasi "%s" telah diimpor.'
