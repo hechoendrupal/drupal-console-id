@@ -1,14 +1,14 @@
-description: 'Create dummy vocabularies for your Drupal 8 application.'
-help: 'The <info>create:vocabularies</info> command helps you create dummy vocabularies.'
-welcome: 'Welcome to the Drupal vocabularies creator'
+description: 'Membuat contoh vocabularies untuk aplikasi Drupal 8 anda.'
+help: 'Perintah <info>create:vocabularies</info> membantu anda untuk membuat contoh vocabularies.'
+welcome: 'Selemat datang pada generator vocabularies untuk Drupal'
 options:
-    limit: 'How many vocabularies would you like to create'
-    name-words: 'Maximum number of words in vocabulary names'
+    limit: 'Berapa banyak vocabularies yang akan anda buat'
+    name-words: 'Jumlah kata maksimum dalam nama vocabulary'
 questions:
-    limit: 'Enter how many vocabularies would you like to create'
-    name-words: 'Enter the maximum number of words in vocabulary names'
+    limit: 'Masukkan berapa banyak vocabularies yang akan anda buat'
+    name-words: 'Masukkan jumlah kata maksimum dalam nama vocabulary'
 messages:
-    vocabulary-id: 'Vocabulary Id'
-    name: Name
-    created-terms: 'Created "%s" vocabularies successfully'
-    error: 'Error creating vocabularies: "%s"'
+    vocabulary-id: 'Id Vocabulary '
+    name: Nama
+    created-terms: 'Vocabulary "%s" sukses dibuat'
+    error: 'Eror dalam membuat vocabulary: "%s"'
