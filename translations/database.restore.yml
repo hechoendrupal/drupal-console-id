@@ -1,9 +1,9 @@
-description: 'Restore structure and contents of a database.'
+description: 'Mengembalikan struktur dan konten sebuah basis data.'
 arguments:
-    database: 'Database key from settings.php'
+    database: 'Key basis data dari settings.php'
 options:
-    file: 'The filename for your database backup file'
+    file: 'Nama file backup basis data anda'
 messages:
-    success: 'Database imported from:'
-    no-file: 'Missing file option'
-help: 'Restore structure and contents of a database.'
+    success: 'Basis data diimport dari:'
+    no-file: 'Opsi berkas hilang'
+help: 'Mengembalikan struktur dan konten sebuah basis data.'
