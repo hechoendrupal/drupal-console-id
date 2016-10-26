@@ -1,4 +1,4 @@
-description: 'List of modules implementing a cron'
+description: 'Daftar modul yang mengimplementasikan cron'
 messages:
-    module-list: 'Modules implementing a cron method'
-    module: Module
+    module-list: 'Modul yang mengimplementasikan metode cron'
+    module: Modul

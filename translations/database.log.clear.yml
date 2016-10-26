@@ -1,11 +1,11 @@
-description: 'Remove events from DBLog table, filters are available'
+description: 'Hapus events dari tabel DBlog, filter tersedia'
 arguments:
-    event-id: 'DBLog event ID'
+    event-id: 'ID event DBLog'
 options:
-    type: 'Filter events by a specific type'
-    severity: 'Filter events by a specific level of severity'
-    user-id: 'Filter events by a specific user id'
+    type: 'Filter event oleh jenis tertentu'
+    severity: 'Filter event oleh tingkat keparahan'
+    user-id: 'Filter event oleh ID pengguna tertentu'
 messages:
-    event-deleted: 'Event "%s" was deleted'
-    clear-error: 'Clear process fail, please check used filters'
-    clear-sucess: 'Clear of events was successfully'
+    event-deleted: 'Event "%s" telah dihapus'
+    clear-error: 'Penghapusan gagal, silahkan cek filter yang digunakan'
+    clear-sucess: 'Penghapusan event telah sukses dilakukan'

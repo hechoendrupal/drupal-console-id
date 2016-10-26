@@ -1,3 +1,3 @@
-description: 'Release cron system lock to run cron again'
+description: 'Melepaskan kunci sistem cron untuk menjalan cron kembali'
 messages:
-    released: 'Cron lock was released successfully'
+    released: 'Kunci cron telah dilepaskan dengan sukses'

@@ -1,19 +1,19 @@
-description: 'Display current log events for the application'
+description: 'Menampilkan log event terkini untuk aplikasi'
 arguments:
-    event-id: 'DBLog event ID'
+    event-id: 'ID event DBLog'
 options:
-    type: 'Filter events by a specific type'
-    severity: 'Filter events by a specific level of severity'
-    user-id: 'Filter events by a specific user id'
-    asc: 'List events in ascending order'
-    limit: 'Limit results to a specific number'
-    offset: 'Starting point of a limit'
+    type: 'Filter event oleh jenis tertentu'
+    severity: 'Filter event oleh tingkat keparahan tertentu'
+    user-id: 'Filter event oleh ID pengguna tertentu'
+    asc: 'Daftar event dalam urutan naik'
+    limit: 'Batasi hasil ke angka tertentu'
+    offset: 'Titik mulai dari sebuah batasan'
 messages:
-    event-id: 'Event ID'
-    type: Type
-    date: Date
-    message: Message
-    user: User
-    severity: Severity
-    invalid-severity: 'Severity type is invalid, filter was ignored'
-    not-found: 'DBLog event "%s" wasn''t found'
+    event-id: 'ID Event'
+    type: Tipe
+    date: Tanggal
+    message: Pesan
+    user: Pengguna
+    severity: Keparahan
+    invalid-severity: 'Tipe keparahan tidak valida, filter diabaikan'
+    not-found: 'Event DBLog "%s" tidak ditemukan'

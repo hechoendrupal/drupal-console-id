@@ -1,7 +1,7 @@
-description: 'Dump structure and contents of a database'
+description: 'Dump struktur dan kontan dari basis data'
 arguments:
-    database: 'Database key from settings.php'
+    database: 'Key Basis data dari settings.php'
 options:
-    file: 'The filename for your database backup'
+    file: 'Nama berkas untuk backup basis data anda'
 messages:
-    success: 'Database exported to:'
+    success: 'Database telah terekspor ke:'

@@ -1,5 +1,5 @@
-description: 'Launch a DB client if it''s available'
+description: 'Menjalankan klien basis data apabila tersedia'
 arguments:
-    database: 'Database key from settings.php'
+    database: 'Key basis data dari settings.php'
 messages:
-    connection: 'Connection: "%s"'
+    connection: 'Koneksi: "%s"'

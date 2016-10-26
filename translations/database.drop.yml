@@ -1,9 +1,9 @@
-description: 'Drop all tables in a given database.'
-help: 'The <info>database:drop</info> command helps you drop database tables.'
+description: 'Hapus semua tabel pada basis data terpilih.'
+help: 'Perintah <info>database:drop</info> membantu anda menghapus tabel pada basis data.'
 arguments:
-    database: 'Database key from settings.php'
+    database: 'Key basis data pada settings.php'
 question:
-    drop-tables: 'Confirm you really want to drop all tables in the database "%s"?'
+    drop-tables: 'Konfirmasi apakah anda ingin menghapus semua tabel yang ada pada basis data "%s"?'
 messages:
-    table: Table
-    table-drop: 'Drop "%s" tables successfully'
+    table: Tabel
+    table-drop: 'Penghapusan tabel "%s" sukses'

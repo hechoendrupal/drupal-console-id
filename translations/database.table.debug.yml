@@ -1,12 +1,12 @@
-description: 'Show all tables in a given database.'
-help: 'The <info>database:table:debug</info> command helps you debug database tables.'
+description: 'Tunjukkan semua tabel dari basis data tertentu.'
+help: 'Perintah <info>database:table:debug</info> membantu anda dalam  men-debug tabel dalam sebuah basis data.'
 arguments:
-    table: 'Table to debug'
-    database: 'Database key from settings.php'
+    table: 'Tabel untuk di-debug'
+    database: 'Key basis data dari settings.php'
 options:
-    database: 'Database key from settings.php'
+    database: 'Key basis data dari settings.php'
 messages:
-    table-show: 'Showing tables for "%s" database'
-    table: Table
-    column: Column
-    type: Type
+    table-show: 'Memperlihatkan tabel untuk basis data "%s"'
+    table: Tabel
+    column: Kolom
+    type: Tipe
