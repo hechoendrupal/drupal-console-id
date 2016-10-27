@@ -16,7 +16,7 @@ questions:
     services: common.questions.services
     test: 'Apakah kamu mau membuat kelas untuk unit test?'
 messages:
-    title-empty: 'Title must contain a value (you must enter at least one method)'
+    title-empty: 'Judul harus berisi nilai (Anda harus memasukkan setidaknya satu metode)'
     title-already-added: 'Judul sudah ditambahkan sebelumnya'
-    method-name-already-added: 'Name metode sudah ditambahkan sebelumnya'
+    method-name-already-added: 'Nama metode sudah ditambahkan sebelumnya'
     path-already-added: 'Path sudah ditambahkan sebelumnya'

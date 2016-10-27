@@ -1,8 +1,7 @@
-description: 'Execute an external command.'
+description: 'Menjalankan perintah eksternal.'
 arguments:
-  bin: 'Executable name.'
+  bin: 'Nama program yang akan dieksekusi.'
 messages:
-  success: 'Executed the command.'
-  invalid-bin: 'Error executing the command.'
-  missing-bin: 'Provide a executable.'
-
+  success: 'Perintah telah dieksekusi.'
+  invalid-bin: 'Eror mengeksekusi perintah.'
+  missing-bin: 'Sediakan program yang akan dieksekusi.'

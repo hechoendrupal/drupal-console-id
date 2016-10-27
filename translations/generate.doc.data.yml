@@ -1,5 +1,5 @@
-description: 'Generate documentations for Commands.'
+description: 'Hasilkan dokumentasi untuk perintah-perintah.'
 options:
-    file: 'The file to render the command data'
+    file: 'Berkas yang akan digunakan untuk menyimpan data perintah'
 messages:
-    missing_file: 'The file is missing, use --file option.'
+    missing_file: 'Berkas hilang, gunakan opsi --file.'
