@@ -1,5 +1,5 @@
-description: 'Generate the DrupalConsole.docset package for Dash'
+description: 'Menghasilkan paket DrupalConsole.docset untuk Dash'
 options:
-    path: 'The path to the directory where the docset will be saved.'
+    path: 'Path direktori dimana docset akan disimpan.'
 messages:
-    missing_path: 'the path is missing'
+    missing_path: 'Path tidak ditemukan'

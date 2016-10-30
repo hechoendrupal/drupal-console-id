@@ -1,6 +1,6 @@
-description: 'Generate an Authentication Provider'
-help: 'The <info>generate:authentication:provider</info> command helps you generate a new Authentication Provider.'
+description: 'Hasilkan penyedia otentikasi'
+help: 'Perintah <info>generate:authentication:provider</info> membantu anda menghasilkan penyedia otentikasi.'
 options:
-    class: 'Authentication Provider class'
-    provider-id: 'Provider ID'
+    class: 'Kelas Penyedia Otentikasi'
+    provider-id: 'ID Penyedia'
 module: common.options.module
