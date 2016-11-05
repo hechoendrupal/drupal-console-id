@@ -1,23 +1,23 @@
-description: 'Generate a new "%s"'
-help: 'The <info>"%s"</info> command helps you generate a new "%s"'
-welcome: 'Welcome to the Drupal form generator'
+description: 'Hasilkan "%s baru"'
+help: 'Perintah <info>"%s"</info> membantu anda menghasilkan "%s" baru'
+welcome: 'Selamat datang ke penghasil formulir Drupal'
 options:
     module: common.options.module
-    class: 'The form class name'
-    form-id: 'The Form id'
+    class: 'Nama kelas formulir'
+    form-id: 'ID formulir'
     services: common.options.services
     inputs: common.options.inputs
-    path: 'Enter the form path'
-    routing: 'Generate routing'
+    path: 'Masukkan path untuk formulir'
+    routing: 'Hasilkan routing'
 questions:
     module: common.questions.module
-    class: 'Enter the Form Class name'
-    form-id: 'Enter the Form id'
+    class: 'Masukkan nama kelas formulir'
+    form-id: 'Masukkan ID formulir'
     services: common.questions.services
     inputs: common.questions.inputs
-    routing: 'Would you like to register a route for this form'
-    menu_link_gen: 'Generate a menu link'
-    menu_link_title: 'A title for the menu link'
-    menu_parent: 'Menu parent'
-    menu_link_desc: 'A description for the menu link'
-    path: 'Enter the route path'
+    routing: 'Apakah anda ingin mendaftarkan rute untuk formulir ini'
+    menu_link_gen: 'Hasilkan tautan menu'
+    menu_link_title: 'Judul untuk tautan menu'
+    menu_parent: 'Induk menu'
+    menu_link_desc: 'Deskripsi untuk tautan menu'
+    path: 'Masukkan path dari route'

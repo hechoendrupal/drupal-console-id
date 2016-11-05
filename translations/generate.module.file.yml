@@ -1,7 +1,7 @@
-description: 'Generate a .module file'
-help: 'The <info>generate:module:file</info> command helps you generates a new .module file'
-welcome: 'Welcome to the Drupal module generator'
+description: 'Hasilkan sebuah berkas .module'
+help: 'Perintah <info>generate:module:file</info> membantu anda menghasilkan berkas .module baru'
+welcome: 'Selamat datang kepada penghasil modul Drupal'
 options:
-    module: 'The Module name'
+    module: 'Nama modul'
 questions:
-    module: 'Enter the new module name'
+    module: 'Masukkan nama modul'
