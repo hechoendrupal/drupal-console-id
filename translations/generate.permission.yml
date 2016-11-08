@@ -1,11 +1,11 @@
-description: 'Generate module permissions'
-help: 'The <info>generate:permissions</info> command helps you generate new permissions'
+description: 'Hasilkan kewenangan modul'
+help: 'Perintah <info>generate:permissions</info> membantu anda menghasilkan kewenangan baru'
 options:
     module: common.options.module
 questions:
     module: common.questions.module
-    permission: 'Enter a permission'
-    title: 'Enter a title for the permission'
-    description: 'Enter a description for the permission'
-    restrict-access: 'Restrict Access'
-    add: 'Do you want to add another permission'
+    permission: 'Masukkan kewenangan'
+    title: 'Masukkan judul dari kewenangan'
+    description: 'Masukkan Deskripsi kewenangan'
+    restrict-access: 'Batasi akses'
+    add: 'Apakah anda ingin menambahkan kewenangan lain'

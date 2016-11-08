@@ -1,9 +1,9 @@
-description: 'Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter'
-help: 'The <info>"%s"</info> command helps you generate a new "%s"'
+description: 'Hasilkan implementasi dari hook_form_alter atau hook_form_FORM_ID_alter'
+help: 'Perintah <info>"%s"</info> membantu anda menghasilkan sebuah "%s" baru'
 options:
-    form-id: 'Form ID to alter'
+    form-id: 'ID formulir yang akan dirubah'
 messages:
-    inputs: "You can add form fields to modify form.\nThis is optional, press <info>enter</info> to <info>continue</info>"
-    loading-forms: 'Loading forms definition from Webprofiler module'
-    hide-form-elements: 'Optionally you can select form items for hide'
-    help-already-implemented: 'The hook form alter was already implemented in module "%s"'
+    inputs: "Anda dapat menambahkan kolom-kolom formulir untuk memodifikasi formulir.\nIni opsional, tekan <info>enter</info> untuk <info>melanjutkan</info>"
+    loading-forms: 'Memuat definisi formulir dari modul Webprofiler'
+    hide-form-elements: 'Secara opsional anda dapat memilih form item untuk disembunyikan'
+    help-already-implemented: 'hook_form_alter telah diimplementasikan pada modul "%s"'
