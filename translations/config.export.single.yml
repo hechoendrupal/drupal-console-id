@@ -1,12 +1,20 @@
 description: 'Ekspor konfigurasi tunggal sebagai berkas yml.'
 arguments:
+    name: 'Configuration name.'
     config-name: 'Nama konfigurasi.'
 options:
     include-dependencies: 'Ekspor prasyarat dari konfigurasi.'
     simple-configuration: 'Konfigurasi sederhana'
+    optional: 'Export config as an optional YAML configuration in your module'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
     optional-config: 'Ekspor konfigurasi sebagai konfigurasi YAML opsional pada modul anda'
 questions:
     config-type: 'Tipe konfigurasi'
+    name: 'Configuration name'
+    optional: 'Export config in module as an optional configuration'
+    remove-uuid: 'Do you want to remove the uuid from this export'
+    remove-config-hash: 'Do you want to remove the default site hash from this export'
     config-name: 'Nama konfigurasi'
     optional-config: 'Ekspor konfigurasi pada modul sebagai konfigurasi opsional'
 messages:
@@ -14,4 +22,12 @@ messages:
     export: 'Konfigurasi telah diekspor pada berkas "%s".'
     invalid-config-type: 'Tipe konfigurasi tidak valid. Mohon pilih satu dari daftar'
     invalid-config-name: 'Nama konfigurasi tidak valid. Mohon pilih satu dari daftar'
+    config-exported: 'Configuration(s) exported sucessfully'
     config_exported: 'Konfigurasi sukses diekspor'
+examples:
+    -
+        description: 'Provide config settings name to be exported'
+        execution: "drupal config:export:single \\\n  --name=config.settings.name"
+    -
+        description: 'if uuid and/or config hashes will be removed.'
+        execution: "drupal config:export:single \\\n  --name=config.settings.name \\\n  --remove-uuid \\\n  --remove-config-hash\n"

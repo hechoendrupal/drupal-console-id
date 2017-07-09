@@ -7,3 +7,7 @@ question:
 messages:
     table: Tabel
     table-drop: 'Penghapusan tabel "%s" sukses'
+examples:
+    -
+        description: 'Drop the tables on the database specified on the argument'
+        execution: "drupal database:drop \\\n  <database>\n"

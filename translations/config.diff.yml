@@ -12,3 +12,7 @@ table:
         operation: Operasi
 messages:
     no-changes: 'Tidak ada perubahan.'
+examples:
+    -
+        description: 'Provide a config directory'
+        execution: 'drupal config:diff ../config/path'

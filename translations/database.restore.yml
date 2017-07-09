@@ -7,3 +7,7 @@ messages:
     success: 'Basis data diimport dari:'
     no-file: 'Opsi berkas hilang'
 help: 'Mengembalikan struktur dan konten sebuah basis data.'
+examples:
+    -
+        description: 'Restore the database file dump to the database default or another one specified'
+        execution: "drupal database:restore \\\n  --file='/srv/dump/db.sql'\n"

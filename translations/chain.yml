@@ -11,3 +11,7 @@ messages:
     set-environment-placeholders: 'Atur environment placeholder sebagai:'
     missing-inline-placeholders: 'Inline placeholder "%s" tidak dapat ditemukan'
     set-inline-placeholders: 'lewati inline placeholders sebagai:'
+examples:
+    -
+        description: 'Providing a file option using full path.'
+        execution: "drupal chain \\\n  --file=\"/path/to/file/chain-file.yml\"\n"

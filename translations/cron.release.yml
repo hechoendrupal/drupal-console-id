@@ -1,3 +1,7 @@
 description: 'Melepaskan kunci sistem cron untuk menjalan cron kembali'
 messages:
     released: 'Kunci cron telah dilepaskan dengan sukses'
+examples:
+    -
+        description: 'Execute the cron globally'
+        execution: "drupal cron:execute\n"

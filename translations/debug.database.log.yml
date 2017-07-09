@@ -2,13 +2,15 @@ description: 'Menampilkan log event terkini untuk aplikasi'
 arguments:
     event-id: 'ID event DBLog'
 options:
-    type: 'Filter event oleh jenis tertentu'
-    severity: 'Filter event oleh tingkat keparahan tertentu'
-    user-id: 'Filter event oleh ID pengguna tertentu'
     asc: 'Daftar event dalam urutan naik'
     limit: 'Batasi hasil ke angka tertentu'
     offset: 'Titik mulai dari sebuah batasan'
+    yml: 'Print in a yml style'
+    type: 'Filter event oleh jenis tertentu'
+    severity: 'Filter event oleh tingkat keparahan tertentu'
+    user-id: 'Filter event oleh ID pengguna tertentu'
 messages:
+    not-found: 'Event DBLog "%s" tidak ditemukan'
     event-id: 'ID Event'
     type: Tipe
     date: Tanggal
@@ -16,4 +18,3 @@ messages:
     user: Pengguna
     severity: Keparahan
     invalid-severity: 'Tipe keparahan tidak valida, filter diabaikan'
-    not-found: 'Event DBLog "%s" tidak ditemukan'

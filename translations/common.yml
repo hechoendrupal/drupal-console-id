@@ -2,6 +2,8 @@ options:
     class: 'Nama Kelas'
     events: 'Memuat event dari kontainer'
     module: 'Nama modul.'
+    extension: 'The extension name.'
+    extension-type: 'The extension type.'
     services: 'Memuat servis dari kontainer.'
     tags: 'Mengatur tag servis dari kontainer.'
     inputs: 'Buat input dalam formulir.'
@@ -9,6 +11,8 @@ options:
 questions:
     class: 'Masukkan nama Kelas'
     module: 'Masukkan nama modul'
+    extension: 'Enter the extension name'
+    extension-type: 'Enter the extension type'
     confirm: 'Apakah anda yakin untuk generasi?'
     canceled: 'Perintah generasi telah dibatalkan.'
     events:

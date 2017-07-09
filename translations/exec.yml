@@ -1,7 +1,12 @@
 description: 'Menjalankan perintah eksternal.'
 arguments:
-  bin: 'Nama program yang akan dieksekusi.'
+    bin: 'Nama program yang akan dieksekusi.'
+options:
+    working-directory: 'The current working directory.'
 messages:
-  success: 'Perintah telah dieksekusi.'
-  invalid-bin: 'Eror mengeksekusi perintah.'
-  missing-bin: 'Sediakan program yang akan dieksekusi.'
+    success: 'Perintah telah dieksekusi.'
+    invalid-bin: 'Eror mengeksekusi perintah.'
+    missing-bin: 'Sediakan program yang akan dieksekusi.'
+    binary-not-found: 'Unable to find the binary %s to execute.'
+    working-directory: 'Working directory'
+    executing-command: 'Executing command'

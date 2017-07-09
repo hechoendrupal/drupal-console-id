@@ -3,7 +3,7 @@ help: 'The <info>generate:breakpoint</info> command helps you generates a new br
 welcome: 'Selamat datang kepada penghasil breakpoint untuk Drupal'
 options:
     theme: 'Nama tema'
-    breakpoints: 'breakpoint-breakpoint'
+    breakpoints: breakpoint-breakpoint
 questions:
     theme: 'Masukkan nama tema (contoh classy, stable)'
     breakpoint-name: 'Masukkan nama breakpoint'

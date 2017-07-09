@@ -1,0 +1,15 @@
+description: 'Tunjukkan konfigurasi terkini.'
+arguments:
+    name: 'Nama konfigurasi.'
+errors:
+    not-exists: 'Konfigurasi "%s" tidak ada.'
+examples:
+    -
+        description: 'List all configuration object names.'
+        execution: 'drupal config:debug'
+    -
+        description: 'Display system site configurations values.'
+        execution: 'drupal config:debug system.site'
+    -
+        description: 'List all system configuration names.'
+        execution: 'drupal config:debug | grep system'

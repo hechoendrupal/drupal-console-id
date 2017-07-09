@@ -16,6 +16,7 @@ questions:
     plugin-id: 'Masukkan ID Plugin'
     inputs: common.questions.inputs
     services: common.questions.services
+    theme-region: 'Enter the theme region to render the Plugin Block.'
 messages:
     inputs: "\nAnda dapat menambahkan kolom input untu membuat konfigurasi spesial pada blok.\nIni opsional, tekan <info>Enter</info> untuk <info>melanjutkan</info>"
     invalid-theme-region: 'Wilayah "%s" tidak valid'

@@ -6,3 +6,7 @@ messages:
     database-not-supported: 'Tipe basis data "%s" belum didukung'
     database-client-not-found: 'Klien basis data "%s" tidak ditemukan'
     connection: 'Koneksi: "%s"'
+examples:
+    -
+        description: 'Connects to an specified database, or the default if not arguments passed'
+        execution: "drupal database:connect \\\n  <database>\n"

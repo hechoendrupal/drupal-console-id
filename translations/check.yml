@@ -1,5 +1,6 @@
 description: 'Pemeriksa kebutuhan sistem'
 messages:
+    file: 'Checking requirements using file at:'
     php_invalid: 'Versi yang terpasang "%s" terkini tidak valid, yang dibutuhkan adalah versi "%s" atau lebih tinggi'
     configuration_missing: 'Konfigurasi "%s" tidak dapat ditemukan.'
     configuration_overwritten: 'Konfigurasi "%s" tidak dapat ditemukan dan ditimpa oleh "%s".'

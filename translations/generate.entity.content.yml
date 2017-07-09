@@ -4,7 +4,7 @@ options:
     module: common.options.module
     entity-class: 'Kelas entitas konten'
     entity-name: 'Nama entitas konten'
-    label: 'Label'
+    label: Label
     has-bundles: 'Entity memiliki bundel'
     base-path: 'Path dasar untuk rute entitas konten'
     is-translatable: 'Entitas konten dapat diterjemahkan'
@@ -16,3 +16,4 @@ questions:
     has-bundles: 'Apakah anda menginginkan entitas (konten) ini memiliki bundel'
     base-path: 'Masukkan path dasar untuk rute entitas konten'
     is-translatable: 'Apakah entitas anda dapat diterjemahkan'
+    revisionable: 'Is your entity revisionable'

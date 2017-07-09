@@ -6,3 +6,10 @@ questions:
     config-name: 'Pilih uint konfigurasi'
 messages:
     no-directory: 'Sebuah eror terjadi ketika membuat direktori anda pada'
+examples:
+    -
+        description: 'Edit system cron configurations with "vim" (default editor).'
+        execution: 'drupal config:edit system.cron'
+    -
+        description: 'Edit system cron configurations with "gedit".'
+        execution: 'drupal config:edit system.cron gedit'

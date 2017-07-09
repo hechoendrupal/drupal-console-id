@@ -33,14 +33,31 @@ messages:
         route: "Route dibutuhkan untuk membuat halaman.\nSebuah route menghubungkan path URL ke sebuah controller. Route menentukan fungsi\n atau metode yang akan dijalankan ketika URL yang bersangkutan diakses.\nJika pemakai mengakses http://drupal8.dev/{{ route.path }}, sistem\nrouting akan mencari route dengan path itu. Dalam kasus ini, dia akan mencari route\nyang sama, dan memanggil _controller callback. Dalam kasus ini callback\nditentukan dengan nama kelas\n(\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\ndan metode (\"{{ route.method }}\")."
     autocomplete: "Bash atau Zsh: Tambahkan baris ini di file konfigurasi shell kamu:\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: Buat link simbolik\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
     version: 'Versi <info>"%s"</info> <comment>"%s"</comment>'
+    disable:
+        command:
+            error: 'Command: "%s" is deprecated.'
+            extra: 'You must execute: "%s" instead'
 errors:
     invalid-command: 'Perintah "%s" tidak dapat ditemukan.'
 site:
     messages:
         path: 'Path situs'
     errors:
-        directory: 'Untuk menampilkan daftar semua perintah yang tersedia, kamu harus menjalankan perintah ini di dalam direktori root Drupal.'
         settings: 'Untuk menampilkan daftar semua perintah yang tersedia, kamu harus memasang Drupal terlebih dahulu.'
+        directory: 'Untuk menampilkan daftar semua perintah yang tersedia, kamu harus menjalankan perintah ini di dalam direktori root Drupal.'
+        not-installed: 'Drupal Console is not installed at: %s'
+        execute-composer: 'You must execute the following composer commands:'
+        missing-config-file: 'Missing configuration file, possible paths:'
+        missing-config-file-command: 'Execute "drupal init" command to generate one'
 user:
     messages:
         path: 'Home path dari pemakai'
+remote:
+    errors:
+        passphrase-missing: 'Passphrase file is missing'
+        passphrase-empty: 'Passphrase file is empty'
+        private-missing: 'Private file is missing'
+        private-empty: 'Private file is empty'
+        private-invalid: 'Private file is invalid'
+        invalid-root: 'Invalid root directory'
+        console-not-found: 'Drupal Console not found on this site'

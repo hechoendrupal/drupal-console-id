@@ -1,6 +1,8 @@
 description: 'Menampilkan servis terkini untuk aplikasi.'
 arguments:
     service: 'Nama Servis.'
+    method: 'Method name.'
+    arguments: 'Array of Arguments in CSV or JSON format.'
 messages:
     service_id: 'ID Servis'
     class_name: 'Nama Kelas'
@@ -10,3 +12,8 @@ messages:
     parent: 'Kelas Induk'
     variables: Variabel
     methods: Metode
+    arguments: Arguments
+    method: Method
+    return: Return
+errors:
+    method_not_exists: 'This method doesn''t exists in this service.'

@@ -3,3 +3,7 @@ arguments:
     database: 'Key basis data dari settings.php'
 messages:
     connection: 'Koneksi: "%s"'
+examples:
+    -
+        description: 'Launch the default client or could launch another regarding the specification on the argument'
+        execution: "drupal database:client <database>\n"
