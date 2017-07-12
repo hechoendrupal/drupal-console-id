@@ -3,5 +3,5 @@ messages:
     released: 'Kunci cron telah dilepaskan dengan sukses'
 examples:
     -
-        description: 'Execute the cron globally'
+        description: 'Jalankan cron secara global'
         execution: "drupal cron:execute\n"
