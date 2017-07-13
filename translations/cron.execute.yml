@@ -6,8 +6,8 @@ messages:
     lock: 'Mencoba menjalankan kembali cron sementara cron telah berjalan'
 examples:
     -
-        description: 'Execute the cron globally'
+        description: 'Jalankan cron secara global'
         execution: "drupal cron:execute\n"
     -
-        description: 'Execute the cron on the specified module'
+        description: 'Jalankan cron pada modul tertentu'
         execution: "drupal cron:execute \\\n  <module>\n"

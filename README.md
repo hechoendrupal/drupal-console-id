@@ -15,7 +15,7 @@ $ composer require drupal/console-id
 
 ### Instal Drupal Console
 
-Untuk menginstal versi yang sesuai dari proyek Drupal Console untuk instalasi drupal anda, julankan perintah composer berikut ini
+Untuk menginstal versi yang sesuai dari proyek Drupal Console untuk instalasi drupal anda, jalankan perintah composer berikut ini
 
 ```
 $ composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
@@ -29,7 +29,7 @@ Ikuti perintah di bawah ini untuk menginstal aplikasi global untuk Drupal Consol
 
 ```
 $ curl https://drupalconsole.com/installer -L -o drupal.phar
-# Or
+# Atau
 $ php -r "readfile('https://drupalconsole.com/installer');" > drupal.phar
 
 $mv drupal.phar /usr/local/bin/drupal
@@ -50,13 +50,13 @@ Supaya terbarukan dengan kontribusi lainnya anda harus menyetel koneksi dengan r
 $ git remote add upstream git@github.com:hechoendrupal/drupal-console-id.git
 ```
 
-Untuk mengambil kontribusi terakhit sebelum memulai, anda harus menjalankan perintah-perintah berikut ini
+Untuk mengambil kontribusi terakhir sebelum memulai, anda harus menjalankan perintah-perintah berikut ini
 ```
 $ git fetch upstream
 $ git merge upstream/master
 ```
 
-N.B: Push perubahan pada repository yang telah anda fork untuk membuat PR per hari supaya mencegah terjadinya konflik dengan kontributor-kontributor lainnya.
+Catatan: Push perubahan pada repository yang telah anda fork untuk membuat PR per hari supaya mencegah terjadinya konflik dengan kontributor-kontributor lainnya.
 
 # English Version
 
