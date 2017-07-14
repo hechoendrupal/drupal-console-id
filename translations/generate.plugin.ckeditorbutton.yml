@@ -15,3 +15,7 @@ questions:
     plugin-id: 'Masukkan ID plugin. Catatan: Ini berhubungan pada nama plugin CKEditor. Ini merupakan argumen pertama pada fungsi CKEDITOR.plugins.add() pada berkas plugin.js.'
     button-name: 'Masukkan Nama tombol. Catatan: Ini berhubungan pada nama tombol CKEditor. Ini merupakan argumen pertama pada fungsi editor.ui.addButton() atau editor.ui.addRichCombo() pada berkas plugin.js.'
     button-icon-path: 'Masukkan path dari gambar tombol'
+examples:
+    -
+        description: 'Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path'
+        execution: "drupal generate:plugin:ckeditorbutton  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultCKEditorButton\"  \\\n  --label=\"Default ckeditor button\"  \\\n  --plugin-id=\"default ckeditor button\"  \\\n  --button-name=\"Default ckeditor button\"  \\\n  --button-icon-path=\"modules/custom/modulename/js/plugins/default ckeditor button/images/icon.png\""

@@ -1,5 +1,27 @@
 description: 'Tambahkan sebuah basis data pada settings.php'
 options:
+<<<<<<< HEAD
+    database: 'The database name'
+    username: 'The database username'
+    password: 'The database password'
+    prefix: 'The database prefix'
+    host: 'The database host address'
+    port: 'The database host port'
+    driver: 'The database driver'
+questions:
+    database: 'Enter the database name'
+    username: 'Enter the username to access the database'
+    password: 'Enter password for the database user'
+    prefix: 'Enter the database prefix'
+    host: 'Enter the database host address'
+    port: 'Enter the database host port'
+    driver: 'Enter the database driver'
+error: 'Could not write the site settings file. Either run this command as sudo or temporarily change permissions to allow write access to settings.php.'
+examples:
+    -
+        description: 'Add a database to the settings.php'
+        execution: "drupal database:add \\\n  --database=DATABASE \\\n  --username=USERNAME \\\n  --password=PASSWORD\n"
+=======
   database: 'Nama basis data'
   username: 'Nama pengguna pada basis data'
   password: 'Kata sandi pada basis data'
@@ -23,3 +45,4 @@ examples:
           --database=DATABASE \
           --username=USERNAME \
           --password=PASSWORD
+>>>>>>> upstream/master

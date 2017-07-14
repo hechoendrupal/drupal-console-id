@@ -4,8 +4,8 @@ arguments:
     method: 'Method name.'
     arguments: 'Array of Arguments in CSV or JSON format.'
 messages:
-    service_id: 'ID Servis'
-    class_name: 'Nama Kelas'
+    service-id: 'Service ID'
+    class-name: 'Class Name'
     service: Servis
     class: Kelas
     interface: Antarmuka
@@ -15,5 +15,12 @@ messages:
     arguments: Arguments
     method: Method
     return: Return
+    service_id: 'ID Servis'
+    class_name: 'Nama Kelas'
 errors:
+    method-not-exists: 'This method doesn''t exists in this service.'
     method_not_exists: 'This method doesn''t exists in this service.'
+examples:
+    -
+        description: 'Displays the views.views_data_helper services'
+        execution: "drupal debug:container views.views_data_helper\n"
