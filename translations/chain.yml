@@ -11,6 +11,8 @@ messages:
     set-environment-placeholders: 'Atur environment placeholder sebagai:'
     missing-inline-placeholders: 'Inline placeholder "%s" tidak dapat ditemukan'
     set-inline-placeholders: 'lewati inline placeholders sebagai:'
+    select-value-for-placeholder: 'Select value for %s placeholder'
+    enter-value-for-placeholder: 'Enter value for %s placeholder'
     missing_file: 'Anda harus menyediakan path dan nama berkas yang valid.'
     invalid_file: 'Berkas "%s" tidak ditemukan.'
     module_install: 'perintah module:install tidak dapat dijalankan di dalam rantai antrean dan harus dijalankan secara independen.'
