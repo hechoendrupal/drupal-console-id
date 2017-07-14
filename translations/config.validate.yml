@@ -1,10 +1,22 @@
+<<<<<<< HEAD
 description: 'Validate a drupal config against its schema'
 options: {  }
 arguments: {  }
+=======
+description: 'Memvalidasi sebuah konfigurasi Drupal berdasarkan skema tertentu'
+options: {}
+arguments: {}
+>>>>>>> upstream/master
 messages:
-    success: 'Config was successfully validated'
-    no-conf: 'Config with this name does not exist'
+    success: 'Konfigurasi telah berhasil divalidasi'
+    no-conf: 'Konfigurasi dengan nama ini tidak terdaftar'
 examples:
+<<<<<<< HEAD
     -
         description: 'Provide the configuration name.'
         execution: 'drupal config:validate configuration.name'
+=======
+    - description: 'Sediakan nama konfigurasi.'
+      execution: 'drupal config:validate configuration.name'
+
+>>>>>>> upstream/master

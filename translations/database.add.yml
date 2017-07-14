@@ -1,5 +1,6 @@
-description: 'Add a database to settings.php'
+description: 'Tambahkan sebuah basis data pada settings.php'
 options:
+<<<<<<< HEAD
     database: 'The database name'
     username: 'The database username'
     password: 'The database password'
@@ -20,3 +21,28 @@ examples:
     -
         description: 'Add a database to the settings.php'
         execution: "drupal database:add \\\n  --database=DATABASE \\\n  --username=USERNAME \\\n  --password=PASSWORD\n"
+=======
+  database: 'Nama basis data'
+  username: 'Nama pengguna pada basis data'
+  password: 'Kata sandi pada basis data'
+  prefix: 'Awalan pada basis data'
+  host: 'Alamat host pada basis data'
+  port: 'Port host pada basis data'
+  driver: 'Driver basis data'
+questions:
+  database: 'Masukkan nama basis data'
+  username: 'Masukkan nama pengguna untuk mengakses basis data'
+  password: 'Masukkan kata sandi yang sesuai dengan nama pengguna'
+  prefix: 'Masukkan awalan yang ingin digunakan pada basis data'
+  host: 'Masukkan alamat host pada basis data'
+  port: 'Masukkan port host pada basis data'
+  driver: 'Masukkan nama driver basis data'
+error: 'Tidak dapat menulis berkas pengaturan situs. Jalankan perintah ini sebagai sudo atau ubah izin sementara untuk memperbolehkan akses ke settings.php.'
+examples:
+    - description: 'Menambahkan sebuah database pada settings.php'
+      execution: |
+        drupal database:add \
+          --database=DATABASE \
+          --username=USERNAME \
+          --password=PASSWORD
+>>>>>>> upstream/master
