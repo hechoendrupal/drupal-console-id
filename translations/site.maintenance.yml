@@ -6,3 +6,10 @@ messages:
     maintenance-off: 'Operating in maintenance mode off'
 errors:
     invalid-mode: 'Invalid maintenance mode'
+examples:
+    -
+        description: 'Switch on maintenance'
+        execution: 'drupal site:maintenance  on'
+    -
+        description: 'Switch off maintenance'
+        execution: "drupal site:maintenance  off\n"

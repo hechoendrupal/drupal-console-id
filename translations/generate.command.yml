@@ -14,3 +14,7 @@ questions:
     container-aware: 'Apakah perintah ini perlu mendeteksi jika situs drupal sudah terpasang sewaktu perintah dijalankan?'
 messages:
     title-not-empty: 'Nama tidak boleh dibiarkan kosong'
+examples:
+    -
+        description: 'Generate a command specifying the extension name and type, its class and the name.'
+        execution: "drupal generate:command  \\\n  --extension=\"ExtensionName\"  \\\n  --extension-type=\"module\"  \\\n  --class=\"DefaultCommand\"  \\\n  --name=\"CommandName\""

@@ -20,3 +20,7 @@ messages:
     title-already-added: 'Judul sudah ditambahkan sebelumnya'
     method-name-already-added: 'Nama metode sudah ditambahkan sebelumnya'
     path-already-added: 'Path sudah ditambahkan sebelumnya'
+examples:
+    -
+        description: 'Generate controller specifying the module name, the class name and its routes'
+        execution: "drupal generate:controller  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultController\"  \\\n  --routes='\"title\":\"ControllerMethod\", \"name\":\"modulename.default_controller_hello\", \"method\":\"hello\", \"path\":\"/modulename/hello/{name}\"'  \\\n  --test"

@@ -13,3 +13,7 @@ questions:
     label: 'Masukkan label plugin'
     plugin-id: 'Masukkan ID plugin'
     field-type: 'Masukkan tipe field yang dapat digunakan'
+examples:
+    -
+        description: 'Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type'
+        execution: "drupal generate:plugin:fieldwidget  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldWidget\"  \\\n  --label=\"Example field widget\"  \\\n  --plugin-id=\"example_field_widget\"  \\\n  --field-type=\"text\"\n"

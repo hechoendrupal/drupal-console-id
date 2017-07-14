@@ -7,3 +7,10 @@ messages:
     loading-forms: 'Memuat definisi formulir dari modul Webprofiler'
     hide-form-elements: 'Secara opsional anda dapat memilih form item untuk disembunyikan'
     help-already-implemented: 'hook_form_alter telah diimplementasikan pada modul "%s"'
+examples:
+    -
+        description: 'Generate a hook form alter for an empty form specifying the module name'
+        execution: "drupal generate:form:alter  \\\n  --module=\"modulename\""
+    -
+        description: 'Generate a hook form alter with 2 fields specifying the module name and the inputs'
+        execution: "drupal generate:form:alter  \\\n  --module=\"modulename\"  \\\n  --inputs='\"name\":\"inputtext\", \"type\":\"text_format\", \"label\":\"InputText\", \"options\":\"\", \"description\":\"Just an input text\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'  \\\n  --inputs='\"name\":\"email\", \"type\":\"email\", \"label\":\"Email\", \"options\":\"\", \"description\":\"Just an email input\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'"
