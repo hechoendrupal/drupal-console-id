@@ -3,8 +3,8 @@ messages:
     enabled-successfully: 'View "%s" telah selesai diaktifkan.'
 examples:
     -
-        description: 'Enable content view'
+        description: 'Aktifkan view konten'
         execution: "drupal views:enable  content\n"
     -
-        description: 'Enable frontpage view'
+        description: 'Aktifkan view halaman depan'
         execution: "drupal views:enable  frontpage\n"

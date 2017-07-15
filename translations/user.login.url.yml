@@ -1,11 +1,11 @@
-description: 'Returns a one-time user login url.'
+description: 'Mengembalikan URL sekali masuk untuk pengguna.'
 options:
-    user-id: 'User ID.'
+    user-id: 'ID pengguna.'
 messages:
-    url: 'One-time login for "%s": "%s"'
+    url: 'Login satu kali untuk "%s": "%s"'
 errors:
-    invalid-user: 'Cannot load user entity (User ID: "%s").'
+    invalid-user: 'Tidak dapat memuat entitas pengguna (ID pengguna: "%s").'
 examples:
     -
-        description: 'Get one time login url for user id 1'
+        description: 'Dapatkan url untuk sekali login untuk pengguna dengan id 1'
         execution: "drupal user:login:url  1\n"
