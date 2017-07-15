@@ -9,5 +9,5 @@ messages:
     table-drop: 'Penghapusan tabel "%s" sukses'
 examples:
     -
-        description: 'Drop the tables on the database specified on the argument'
+        description: 'Hapus tabel pada basis data yang ditentukan pada argumen'
         execution: "drupal database:drop \\\n  <database>\n"

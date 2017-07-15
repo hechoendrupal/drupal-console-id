@@ -11,8 +11,8 @@ messages:
     clear-sucess: 'Penghapusan event telah sukses dilakukan'
 examples:
     -
-        description: 'Clear the database log from DBLog table'
+        description: 'Bersihkan log basis data dari tabel DBLog'
         execution: "drupal database:log:clear \\\n  <database>"
     -
-        description: 'Clear the database log from DBLog table using filters'
+        description: 'Hapus log basis data dari tabel DBLog menggunakan filter'
         execution: "drupal database:log:clear \\\n  <database> \\\n  --type=TYPE \\\n  --severity=SEVERITY"

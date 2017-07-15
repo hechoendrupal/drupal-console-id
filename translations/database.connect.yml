@@ -8,5 +8,5 @@ messages:
     connection: 'Koneksi: "%s"'
 examples:
     -
-        description: 'Connects to an specified database, or the default if not arguments passed'
+        description: 'Hubungkan pada basis data terspesifikasi atau bawaannya ketika tidak terdapat argumen'
         execution: "drupal database:connect \\\n  <database>\n"
