@@ -20,7 +20,7 @@ options:
 arguments:
     command: 'Perintah untuk dijalankan'
 messages:
-    completed: 'Perintah sudah berhasil dijalankan!'
+    completed: 'Perintah berhasil dijalankan!'
     chain:
         generated: 'Format YAML untuk perintah ini, penggunaan: copy di, contohnya `~/.console/chain/sample.yml` untuk menjalankan `chain` command (perintah rentetan), pastikan kalau file YAML kamu dimulai dengan `perintah` indeks root:'
     inline:

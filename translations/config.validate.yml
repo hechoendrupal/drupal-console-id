@@ -2,7 +2,7 @@ description: 'Memvalidasi sebuah konfigurasi Drupal berdasarkan skema tertentu'
 options: {  }
 arguments: {  }
 messages:
-    success: 'Konfigurasi telah berhasil divalidasi'
+    success: 'Konfigurasi berhasil divalidasi'
     no-conf: 'Konfigurasi dengan nama ini tidak terdaftar'
 examples:
     -

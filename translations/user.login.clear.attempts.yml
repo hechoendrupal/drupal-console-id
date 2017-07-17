@@ -7,7 +7,7 @@ questions:
     numeric-uid: 'ID user harus berupa bilangan bulat.'
     invalid-uid: 'ID user harus lebih besar daripada nol.'
 messages:
-    successful: 'Percobaan masuk telah sukses dihapus untuk ID user "%s".'
+    successful: 'Percobaan masuk berhasil dihapus untuk ID user "%s".'
 errors:
     invalid-user: 'Tidak dapat memuat entitas pengguna (Uid: "%s").'
     no-flood: 'Tidak ada tabel flood pada sistem.'

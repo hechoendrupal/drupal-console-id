@@ -5,7 +5,7 @@ options:
     remove-files: 'Remove files after synchronization.'
 messages:
     config_files_imported: 'Daftar dari berkas konfigurasi.'
-    imported: 'Konfigurasi telah diimpor secara sukses.'
+    imported: 'Konfigurasi berhasil diimpor.'
     importing: 'Importing configuration.'
     already-imported: 'Another request may be synchronizing configuration already.'
     nothing-to-do: 'There are no changes to import.'

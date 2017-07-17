@@ -8,7 +8,7 @@ options:
 messages:
     event-deleted: 'Event "%s" telah dihapus'
     clear-error: 'Penghapusan gagal, silahkan cek filter yang digunakan'
-    clear-sucess: 'Penghapusan event telah sukses dilakukan'
+    clear-sucess: 'Penghapusan event berhasil dilakukan'
 examples:
     -
         description: 'Bersihkan log basis data dari tabel DBLog'
