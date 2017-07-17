@@ -5,7 +5,7 @@ messages:
     welcome: 'Selamat datang di perintah cache:rebuild'
     rebuild: 'Membangun ulang cache, mohon menunggu.'
     completed: 'Selesai membersihkan cache.'
-    invalid-cache: 'Cache "%s" is invalid.'
+    invalid-cache: 'Cache "%s" tidak valid.'
     invalid_cache: 'Cache "%s" tidak valid'
 questions:
     cache: 'Pilih cache.'

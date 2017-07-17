@@ -1,12 +1,12 @@
-description: 'Execute a specific Update N function in a module, or execute all'
+description: 'Mengeksekusi semua / sebagian fungsi update_N pada modul'
 options:
-    update-n: 'Specific Update N function to be executed'
+    update-n: 'Fungsi update_N yang ingin dieksekusi'
 messages:
-    no-module-updates: 'There aren''t updates available for module "%s"'
-    executing-update: 'Executing update function "%s" of module "%s"'
-    module-update-function-not-found: 'Module "%s" doesn''t have a function update for "%s"'
-    executing-required-previous-updates: 'Executing required previous updates'
+    no-module-updates: 'Tidak ada pembaruan tersedia untuk modul "%s"'
+    executing-update: 'Mengeksekusi fungsi pembaruan "%s" pada modul "%s"'
+    module-update-function-not-found: 'Modul "%s" tidak memiliki fungsi update "%s"'
+    executing-required-previous-updates: 'Mengeksekusi pembaruan sebelumnya yang diperlukan'
 examples:
     -
-        description: 'Update all entities'
+        description: 'Perbarui semua entitas'
         execution: "drupal update:execute\n"

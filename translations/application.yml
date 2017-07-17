@@ -22,7 +22,7 @@ arguments:
 messages:
     completed: 'Perintah berhasil dijalankan!'
     chain:
-        generated: 'Format YAML untuk perintah ini, penggunaan: copy di, contohnya `~/.console/chain/sample.yml` untuk menjalankan `chain` command (perintah rentetan), pastikan kalau file YAML kamu dimulai dengan `perintah` indeks root:'
+        generated: 'Format YAML untuk perintah ini, penggunaan: salin pada, contohnya `~/.console/chain/sample.yml` untuk menjalankan `chain` command (perintah rentetan), pastikan kalau file YAML kamu dimulai dengan `perintah` indeks root:'
     inline:
         generated: 'Format barisan perintah untuk perintah ini:'
     generated: 'Sekarang kamu sudah dapat mulai menggunakan kode yang dihasilkan di atas!'
@@ -35,44 +35,44 @@ messages:
     version: 'Versi <info>"%s"</info> <comment>"%s"</comment>'
     disable:
         command:
-            error: 'Command: "%s" is deprecated.'
-            extra: 'You must execute: "%s" instead'
+            error: 'Perintah: "%s" tidak berlaku.'
+            extra: 'Sebagai gantinya, Anda harus menjalankan: "%s" '
 errors:
     invalid-command: 'Perintah "%s" tidak dapat ditemukan.'
-    renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    renamed-command: 'Perintah "%s" telah diganti namanya, sebagai gantinya gunakan "%s".'
 site:
     messages:
         path: 'Path situs'
     errors:
         settings: 'Untuk menampilkan daftar semua perintah yang tersedia, kamu harus memasang Drupal terlebih dahulu.'
         directory: 'Untuk menampilkan daftar semua perintah yang tersedia, kamu harus menjalankan perintah ini di dalam direktori root Drupal.'
-        not-installed: 'Drupal Console is not installed at: %s'
-        execute-composer: 'You must execute the following composer commands:'
-        missing-config-file: 'Missing configuration file, possible paths:'
-        missing-config-file-command: 'Execute "drupal init" command to generate one'
+        not-installed: 'Drupal Console tidak terpasang pada: %s'
+        execute-composer: 'Anda harus mengeksekusi komponen composer berikut:'
+        missing-config-file: 'Berkas konfigurasi tidak ditemukan, path yang memungkinkan:'
+        missing-config-file-command: 'Eksekusi perintah "drupal init" untuk menghasilkan'
 user:
     messages:
         path: 'Home path dari pemakai'
 remote:
     errors:
-        passphrase-missing: 'Passphrase file is missing'
-        passphrase-empty: 'Passphrase file is empty'
-        private-missing: 'Private file is missing'
-        private-empty: 'Private file is empty'
-        private-invalid: 'Private file is invalid'
-        invalid-root: 'Invalid root directory'
-        console-not-found: 'Drupal Console not found on this site'
+        passphrase-missing: 'Berkas frasa sandi tidak ditemukan'
+        passphrase-empty: 'Berkas frasa sandi kosong'
+        private-missing: 'Berkas pribadi tidak ditemukan'
+        private-empty: 'Berkas pribadi kosong'
+        private-invalid: 'Berkas pribadi tidak valid'
+        invalid-root: 'Directory akar tidak valid'
+        console-not-found: 'Drupal Console tidak ditemukan pada situs ini'
 gitbook:
     messages:
-        title: 'Available Drupal Console Commands'
-        note: Note
-        note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
-        command: 'Drupal Console Command'
-        command_description: 'The **"%s"** command "%s"'
-        usage: Usage
-        options: 'Available options'
-        option: Option
-        details: Details
-        arguments: 'Available arguments'
-        argument: Argument
-        examples: Examples
+        title: 'Perintah Drupal Console yang tersedia'
+        note: Catatan
+        note-description: 'Perintah Drupal Console *harus* dijalankan dari Direktori akar dari sebuah pemasangan Drupal 8'
+        command: 'Perintah Drupal Console'
+        command_description: 'Perintah **"%s"** "%s"'
+        usage: Penggunaan
+        options: 'Pilihan tersedia'
+        option: Pilihan
+        details: Perincian
+        arguments: 'Argumen tersedia'
+        argument: Argumen
+        examples: Contoh
