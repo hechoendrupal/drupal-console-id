@@ -24,7 +24,7 @@ messages:
     roles: Peran
     username: 'Nama user'
     created: 'Tanggal pembuatan'
-    created-users: 'Pengguna "%s" sukses dibuat'
+    created-users: 'Pengguna "%s" berhasil dibuat'
 examples:
     -
         description: 'Provide the user role.'

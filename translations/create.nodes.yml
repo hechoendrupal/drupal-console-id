@@ -25,7 +25,7 @@ messages:
     title: Judul
     created: 'Tanggal pembuatan'
     invalid-content-types: 'Tipe konten "%s" tidak valid'
-    created-nodes: 'Node "%s" sukses dibuat'
+    created-nodes: 'Node "%s" berhasil dibuat'
 examples:
     -
         description: 'Provide the content type name.'

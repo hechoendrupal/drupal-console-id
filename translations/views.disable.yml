@@ -3,8 +3,8 @@ messages:
     disabled-successfully: 'View "%s" telah selesai dinonaktifkan.'
 examples:
     -
-        description: 'Disable content view'
+        description: 'Non-aktifkan view konten'
         execution: "drupal views:disable  content\n"
     -
-        description: 'Disable frontpage view'
+        description: 'Non-aktifkan view halaman depan'
         execution: "drupal views:disable  frontpage\n"

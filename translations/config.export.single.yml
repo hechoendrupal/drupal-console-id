@@ -23,7 +23,7 @@ messages:
     invalid-config-type: 'Tipe konfigurasi tidak valid. Mohon pilih satu dari daftar'
     invalid-config-name: 'Nama konfigurasi tidak valid. Mohon pilih satu dari daftar'
     config-exported: 'Configuration(s) exported sucessfully'
-    config_exported: 'Konfigurasi sukses diekspor'
+    config_exported: 'Konfigurasi berhasil diekspor'
 examples:
     -
         description: 'Provide config settings name to be exported'

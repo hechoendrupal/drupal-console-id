@@ -15,7 +15,7 @@ messages:
     vocabulary: Vocabulary
     name: Nama
     invalid-vocabularies: 'Vocabulary "%s" tidak valid'
-    created-terms: 'Terms "%s" sukses dibuat'
+    created-terms: 'Terms "%s" berhasil dibuat'
 examples:
     -
         description: 'Provide the vocabulary term name.'

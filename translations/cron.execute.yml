@@ -2,7 +2,7 @@ description: 'Jalankan implementasi cron oleh modul atau jalankan semua cron-cro
 messages:
     module-invalid: 'Modul "%s" tidak memiliki implementasi cron'
     executing-cron: 'Menjalankan fungsi cron dari modul "%s"'
-    success: 'Semua permintaan implementasi cron sudah dijalankan dengan sukses'
+    success: 'Semua permintaan implementasi cron berhasil dijalankan'
     lock: 'Mencoba menjalankan kembali cron sementara cron telah berjalan'
 examples:
     -

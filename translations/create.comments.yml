@@ -27,7 +27,7 @@ messages:
     title: Judul
     created: 'Waktu pembuatan'
     invalid-content-types: 'Tipe konten "%s" tidak valid'
-    created-comments: 'Komentar "%s" sukses dibuat'
+    created-comments: 'Komentar "%s" berhasil dibuat'
 examples:
     -
         description: 'Provide the node id where the comments will be generated.'

@@ -8,8 +8,8 @@ messages:
     success: 'Database telah terekspor ke:'
 examples:
     -
-        description: 'Dump default database or the one specified on the argument'
+        description: 'Dump basis data bawaan atau yang ditentukan pada argumen'
         execution: "drupal database:dump \\\n  <database>"
     -
-        description: 'Dump in gz compressed format'
+        description: 'Dump dengan menggunakan format gz'
         execution: "drupal database:dump \\\n  --gz"

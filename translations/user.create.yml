@@ -1,31 +1,31 @@
-description: 'Create users for the application'
-help: 'The <info>user:create</info> command helps you create users.'
-welcome: 'Welcome to the Drupal user create'
+description: 'Membuat pengguna untuk aplikasi'
+help: 'Perintah <info>user:create</info> membantu anda dalam membuat pengguna.'
+welcome: 'Selamat datang pada pembuat pengguna pada Drupal'
 options:
-    username: 'User name to be created'
-    password: 'User password'
-    roles: 'User roles'
-    email: 'User email'
-    status: 'User status'
+    username: 'Nama pengguna yang akan dibuat'
+    password: 'Kata sandi pengguna'
+    roles: 'Peran pengguna'
+    email: 'Surel pengguna'
+    status: 'Status pengguna'
 questions:
-    username: 'User name to be created'
-    password: 'User password (empty to auto-generate)'
-    roles: 'User roles (empty to skip)'
-    email: 'User e-mail (empty to skip)'
-    status: 'User status (empty to skip)'
+    username: 'Nama pengguna yang akan dibuat'
+    password: 'Kata sandi pengguna (kosongkan untuk menghasilkan secara otomatis)'
+    roles: 'Peran pengguna (kosongkan untuk lewati)'
+    email: 'Surel pengguna (kosongkan untuk lewati)'
+    status: 'Status pengguna (kosongkan untuk lewati)'
 messages:
-    user-id: 'User ID'
-    username: Username
-    password: Password
-    email: E-mail
-    roles: Roles
-    created: Created
-    status: Status
-    user-created: 'User "%s" was created successfully'
+    user-id: 'ID pengguna'
+    username: 'Nama Pengguna'
+    password: 'Kata Sandi'
+    email: Surel
+    roles: 'Peran-peran'
+    created: 'Dibuat pada'
+    status: 'Status'
+    user-created: 'Pengguna "%s" berhasil dibuat'
 examples:
     -
-        description: 'Create user specifying username, password, role, email and status'
+        description: 'Membuat pengguna dengan menentukan nama user, kata sandi, peran, surel dan status'
         execution: "drupal user:create  john p455w0rd  \\\n  --roles='authenticated'  \\\n  --email=\"john@anexusit.com\"  \\\n  --status=\"1\""
     -
-        description: 'Create admin user specifying username, password, role, email and status'
+        description: 'Membuat pengguna admin dengan menentukan nama user, kata sandi, peran, surel dan status'
         execution: "drupal user:create  doe p455w0rd  \\\n  --roles='administrator'  \\\n  --email=\"doe@anexusit.com\"  \\\n  --status=\"1\"\n"

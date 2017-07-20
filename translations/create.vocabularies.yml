@@ -10,7 +10,7 @@ questions:
 messages:
     vocabulary-id: 'Id Vocabulary '
     name: Nama
-    created-terms: 'Vocabulary "%s" sukses dibuat'
+    created-terms: 'Vocabulary "%s" berhasil dibuat'
     error: 'Eror dalam membuat vocabulary: "%s"'
 examples:
     -
