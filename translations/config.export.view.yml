@@ -13,8 +13,8 @@ options:
     include-module-dependencies: 'Masukkan modul prasyarat pada berkas modul YAML info'
 examples:
     -
-        description: 'Provide a view id'
+        description: 'Sediakan id view'
         execution: 'drupal config:export:view viewid'
     -
-        description: 'You can provide the interactive values like parameter.'
+        description: 'Anda dapat menyediakan nilai interaktif seperti parameter.'
         execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies\n"

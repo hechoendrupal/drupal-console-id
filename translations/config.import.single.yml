@@ -1,19 +1,19 @@
 description: 'Impor konfigurasi terpilih.'
 options:
-    file: 'The file(s) name or file(s) absolute path to import'
-    directory: 'The path from where to import file(s).'
+    file: 'Nama berkas atau path lengkap untuk diimport'
+    directory: 'Path di mana untuk mengimpor berkas.'
 questions:
     file: 'Masukkan path berkas yang akan diimpor'
-    directory: 'Enter path from where to import files.'
+    directory: 'Masukkan path dari berkas yang akan diimpor.'
     name: 'Masukkan nama konfigurasi'
 messages:
-    missing-file: 'File option is missing.'
+    missing-file: 'Opsi berkas tidak ditemukan.'
     empty-value: 'Nilai tidak boleh kosong'
     success: 'Konfigurasi "%s" telah diimpor.'
 examples:
     -
-        description: 'Providing a file option using full path.'
+        description: 'Sediakan opsi berkas dengan menggunakan path lengkap.'
         execution: "drupal config:import:single \\\n  --file=\"/path/to/file/block.block.default_block.yml\""
     -
-        description: 'Providing file and directory options'
+        description: 'Sediakan opsi berkas dan direktori'
         execution: "drupal config:import:single  \\\n  --file=\"block.block.default_block.yml\" \\\n  --directory=\"/path/to/directory\"\n"
