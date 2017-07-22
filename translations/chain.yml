@@ -4,19 +4,16 @@ options:
 questions:
     chain-file: 'Pilih berkas chain untuk dieksekusi'
 messages:
-    missing-file: 'You must provide a valid file path and name.'
-    invalid-file: 'The file "%s" does not exist.'
-    module-install: 'module:install command is not runnable inside a chain queue and must be run independently.'
+    missing_file: 'Anda harus menyediakan path dan nama berkas yang valid.'
+    invalid_file: 'Berkas "%s" tidak ditemukan.'
+    module_install: 'perintah module:install tidak dapat dijalankan di dalam rantai antrean dan harus dijalankan secara independen.'
     missing-environment-placeholders: 'Placeholder environment "%s" tidak dapat ditemukan'
     set-environment-placeholders: 'Atur environment placeholder sebagai:'
     missing-inline-placeholders: 'Inline placeholder "%s" tidak dapat ditemukan'
     set-inline-placeholders: 'lewati inline placeholders sebagai:'
-    select-value-for-placeholder: 'Select value for %s placeholder'
-    enter-value-for-placeholder: 'Enter value for %s placeholder'
-    missing_file: 'Anda harus menyediakan path dan nama berkas yang valid.'
-    invalid_file: 'Berkas "%s" tidak ditemukan.'
-    module_install: 'perintah module:install tidak dapat dijalankan di dalam rantai antrean dan harus dijalankan secara independen.'
+    select-value-for-placeholder: 'Pilih nilai untuk placeholder %s'
+    enter-value-for-placeholder: 'Masukkan nilai untuk placeholder %s'
 examples:
     -
-        description: 'Providing a file option using full path.'
+        description: 'Menyediakan pilihan berkas dengan menggunakan path lengkap.'
         execution: "drupal chain \\\n  --file=\"/path/to/file/chain-file.yml\"\n"

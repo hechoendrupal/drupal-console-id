@@ -18,5 +18,5 @@ questions:
     sure: 'Apakah anda yakin menghapus semua konfigurasi'
 examples:
     -
-        description: 'Provide a config type and a config name'
+        description: 'Menyediakan sebuah tipe dan sebuah nama konfigurasi'
         execution: 'drupal config:delete active all'
