@@ -3,14 +3,14 @@ arguments:
     config-name: 'Nama konfigurasi.'
     editor: Editor.
 questions:
-    config-name: 'Pilih uint konfigurasi'
+    config-name: 'Pilih unit konfigurasi'
 messages:
     no-directory: 'Sebuah eror terjadi ketika membuat direktori anda pada'
-    choose-configuration: 'Choose a configuration'
+    choose-configuration: 'Pilih sebuah konfigurasi'
 examples:
     -
-        description: 'Edit system cron configurations with "vim" (default editor).'
+        description: 'Ubah konfigurasi sistem cron dengan "vim" (pengubah bawaan).'
         execution: 'drupal config:edit system.cron'
     -
-        description: 'Edit system cron configurations with "gedit".'
+        description: 'Edit konfigurasi sistem cron dengan "gedit".'
         execution: 'drupal config:edit system.cron gedit'
