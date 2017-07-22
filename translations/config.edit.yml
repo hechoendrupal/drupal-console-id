@@ -12,5 +12,5 @@ examples:
         description: 'Ubah konfigurasi sistem cron dengan "vim" (pengubah bawaan).'
         execution: 'drupal config:edit system.cron'
     -
-        description: 'Edit konfigurasi sistem cron dengan "gedit".'
+        description: 'Ubah konfigurasi sistem cron dengan "gedit".'
         execution: 'drupal config:edit system.cron gedit'

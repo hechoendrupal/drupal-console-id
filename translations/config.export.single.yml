@@ -5,16 +5,16 @@ arguments:
 options:
     include-dependencies: 'Ekspor prasyarat dari konfigurasi.'
     simple-configuration: 'Konfigurasi sederhana'
-    optional: 'Export config as an optional YAML configuration in your module'
-    remove-uuid: 'If set, the configuration will be exported without uuid key.'
-    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
+    optional: 'Ekspor konfigurasi sebagai sebuah konfigurasi YAML yang bersifat opsional pada modul anda.'
+    remove-uuid: 'Jika diisi, konfigurasi akan diekspor tanpa uuid.'
+    remove-config-hash: 'Jika diisi, konfigurasi akan diekspor tanpa kunci hash bawaan situs.'
     optional-config: 'Ekspor konfigurasi sebagai konfigurasi YAML opsional pada modul anda'
 questions:
     config-type: 'Tipe konfigurasi'
-    name: 'Configuration name'
-    optional: 'Export config in module as an optional configuration'
-    remove-uuid: 'Do you want to remove the uuid from this export'
-    remove-config-hash: 'Do you want to remove the default site hash from this export'
+    name: 'Nama konfigurasi'
+    optional: 'Ekspor konfigurasi pada modul sebagai konfigurasi yang bersifat opsional'
+    remove-uuid: 'Apakah anda ingin mennghapus uuid dari ekspor ini?'
+    remove-config-hash: 'Apakah anda ingin menghapus kunci hash bawaan situs dari ekspor ini?'
     config-name: 'Nama konfigurasi'
     optional-config: 'Ekspor konfigurasi pada modul sebagai konfigurasi opsional'
 messages:
@@ -22,12 +22,12 @@ messages:
     export: 'Konfigurasi telah diekspor pada berkas "%s".'
     invalid-config-type: 'Tipe konfigurasi tidak valid. Mohon pilih satu dari daftar'
     invalid-config-name: 'Nama konfigurasi tidak valid. Mohon pilih satu dari daftar'
-    config-exported: 'Configuration(s) exported sucessfully'
+    config-exported: 'Konfigurasi berhasil diekspor'
     config_exported: 'Konfigurasi berhasil diekspor'
 examples:
     -
-        description: 'Provide config settings name to be exported'
+        description: 'Sediakan nama pengaturan konfigurasi yang akan diekspor'
         execution: "drupal config:export:single \\\n  --name=config.settings.name"
     -
-        description: 'if uuid and/or config hashes will be removed.'
+        description: 'Jika uuid dan/atau hash dari konfigurasi akan dihapus.'
         execution: "drupal config:export:single \\\n  --name=config.settings.name \\\n  --remove-uuid \\\n  --remove-config-hash\n"

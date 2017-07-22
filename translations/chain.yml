@@ -4,15 +4,18 @@ options:
 questions:
     chain-file: 'Pilih berkas chain untuk dieksekusi'
 messages:
-    missing_file: 'Anda harus menyediakan path dan nama berkas yang valid.'
-    invalid_file: 'Berkas "%s" tidak ditemukan.'
-    module_install: 'perintah module:install tidak dapat dijalankan di dalam rantai antrean dan harus dijalankan secara independen.'
+    missing-file: 'Anda harus menyediakan path dan nama berkas yang valid.'
+    invalid-file: 'Berkas "%s" tidak ditemukan.'
+    module-install: 'perintah module:install tidak dapat dijalankan di dalam rantai antrean dan harus dijalankan secara independen.'
     missing-environment-placeholders: 'Placeholder environment "%s" tidak dapat ditemukan'
     set-environment-placeholders: 'Atur environment placeholder sebagai:'
     missing-inline-placeholders: 'Inline placeholder "%s" tidak dapat ditemukan'
     set-inline-placeholders: 'lewati inline placeholders sebagai:'
     select-value-for-placeholder: 'Pilih nilai untuk placeholder %s'
     enter-value-for-placeholder: 'Masukkan nilai untuk placeholder %s'
+    missing_file: 'Anda harus menyediakan path dan nama berkas yang valid.'
+    invalid_file: 'Berkas "%s" tidak ditemukan.'
+    module_install: 'perintah module:install tidak dapat dijalankan di dalam rantai antrean dan harus dijalankan secara independen.'
 examples:
     -
         description: 'Menyediakan pilihan berkas dengan menggunakan path lengkap.'
