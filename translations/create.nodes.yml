@@ -11,7 +11,7 @@ questions:
     content-type: 'Pilih tipe-tipe konten yang akan digunakan dalam pembuatan node'
     limit: 'Berapa banyak node yang akan dihasilkan'
     title-words: 'Berapa jumlah kata maksimum dalam judul'
-    time-range: 'How far back in time should the nodes be dated?'
+    time-range: 'Seberapa jauh ke belakang seharusnya node diberi tanggal?'
     time-ranges:
         - 'Now (Sekarang)'
         - '1 hour ago (1 jam lalu)'
@@ -28,8 +28,8 @@ messages:
     created-nodes: 'Node "%s" berhasil dibuat'
 examples:
     -
-        description: 'Provide the content type name.'
+        description: 'Berikan nama jenis konten.'
         execution: 'drupal create:nodes content-name'
     -
-        description: 'Provide the limit of publications, limit of title words, time range and language.'
+        description: 'Berikan batas publikasi, batas judul kata, rentang waktu dan bahasa.'
         execution: "drupal create:nodes content-name \\\n  --limit=\"5\" \\\n  --title-words=\"5\" \\\n  --time-range=\"1\" \\\n  --language=\"und\"\n"

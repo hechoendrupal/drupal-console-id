@@ -18,8 +18,8 @@ messages:
     created-terms: 'Terms "%s" berhasil dibuat'
 examples:
     -
-        description: 'Provide the vocabulary term name.'
+        description: 'Berikan nama istilah kosakata.'
         execution: 'drupal create:terms vocabulary'
     -
-        description: 'Provide the limit of terms to add and limit of title words.'
+        description: 'Berikan batasan istilah untuk menambah dan membatasi kata-kata judul.'
         execution: "drupal create:terms tags \\\n  --limit=\"10\" \\\n  --name-words=\"5\"\n"

@@ -1,6 +1,6 @@
 description: 'Membuat contoh vocabularies untuk aplikasi Drupal 8 anda.'
 help: 'Perintah <info>create:vocabularies</info> membantu anda untuk membuat contoh vocabularies.'
-welcome: 'Selemat datang pada generator vocabularies untuk Drupal'
+welcome: 'Selamat datang pada generator vocabularies untuk Drupal'
 options:
     limit: 'Berapa banyak vocabularies yang akan anda buat'
     name-words: 'Jumlah kata maksimum dalam nama vocabulary'
@@ -14,5 +14,5 @@ messages:
     error: 'Eror dalam membuat vocabulary: "%s"'
 examples:
     -
-        description: 'Provide the number of vocabularies to create and maximum number of words in vocabulary names'
+        description: 'Berikan jumlah kosakata untuk membuat dan jumlah kata maksimal dalam nama kosakata'
         execution: "drupal create:vocabularies \\\n  --limit=\"5\" \\\n  --name-words=\"5\"\n"

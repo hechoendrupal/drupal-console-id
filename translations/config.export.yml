@@ -9,8 +9,8 @@ messages:
     error: 'Sebuah eror terjadi ketika membuat direktori anda pada "%s"'
 examples:
     -
-        description: 'Optional you can add the path to export'
+        description: 'Opsional Anda bisa menambahkan path untuk ekspor'
         execution: "drupal config:export  \\\n  --directory=\"path/to/export\""
     -
-        description: 'If export will be in a compressed file and/or if uuid and config hashes will be removed.'
+        description: 'Jika ekspor akan berada dalam file terkompresi dan/atau hash uuid dan config akan dihapus.'
         execution: "drupal config:export  \\\n  --directory=\"path/to/export\" \\\n  --tar \\\n  --remove-uuid \\\n  --remove-config-hash\n"
