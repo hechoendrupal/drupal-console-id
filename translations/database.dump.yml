@@ -3,7 +3,7 @@ arguments:
     database: 'Key Basis data dari settings.php'
 options:
     file: 'Nama berkas untuk backup basis data anda'
-    gz: 'Pass this option if you want the sql result file gzipped'
+    gz: 'Berikan opsi ini jika anda menginginkan file hasil sql gzip'
 messages:
     success: 'Database telah terekspor ke:'
 examples:
