@@ -31,6 +31,8 @@ questions:
     field-type: 'Masukkan tipe field yang dapat digunakan dengan plugin pemformat dan widget'
     default-widget: 'Masukkan field widget bawaan dari plugin tipe field'
     default-formatter: 'Masukkan formatter field bawaan dari plugin tipe field'
+suggestions:
+    my-field-type: 'My Field Type'
 examples:
     -
         description: 'Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)'

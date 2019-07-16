@@ -1,12 +1,24 @@
 description: 'Mengeksekusi semua / sebagian fungsi update_N pada modul'
-options:
-    update-n: 'Fungsi update_N yang ingin dieksekusi'
+questions:
+    update: 'Do you want to run the specified pending updates?'
+    post-update: 'Do you want to run the specified pending post updates?'
+arguments:
+    module: 'Module name'
+    update-n: 'Specific Update N function to be executed'
 messages:
     no-module-updates: 'Tidak ada pembaruan tersedia untuk modul "%s"'
     executing-update: 'Mengeksekusi fungsi pembaruan "%s" pada modul "%s"'
+    executing-post-update: 'Executing post update function "%s" of module "%s"'
     module-update-function-not-found: 'Modul "%s" tidak memiliki fungsi update "%s"'
     executing-required-previous-updates: 'Mengeksekusi pembaruan sebelumnya yang diperlukan'
+    no-pending-updates: 'There aren''t updates available'
+    no-pending-post-updates: 'There aren''t post updates available'
+    pending-post-updates: 'There are the following post updates available:'
+    pending-updates: 'There are the following updates available:'
 examples:
     -
         description: 'Perbarui semua entitas'
         execution: "drupal update:execute\n"
+    -
+        description: 'Execute updates for system module'
+        execution: "drupal update:execute system\n"

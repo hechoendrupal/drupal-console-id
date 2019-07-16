@@ -22,6 +22,9 @@ questions:
         confirm: 'Apakah anda ingin memuat servis dari kontainer'
         message: "\nMasukkan nama servis atau gunakan keyup atau keydown.\nIni tidak harus, tekan <info>enter</info> untuk <info>melanjutkan</info>\n"
         name: 'Masukkan servis anda'
+    roles:
+        message: "\nType the role name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
+        name: 'Enter your role'
     inputs:
         confirm: 'Apakah anda ingin menggenerasi sebuah struktur formulir?'
         label: 'Label input'
@@ -34,6 +37,7 @@ questions:
         weight: 'Berat dari item input'
         title: Judul
         fieldset: Fieldset
+        new-field: 'Enter a new field properties'
         machine_name: 'Masukkan nama mesin'
 errors:
     module-dependency: 'Modul prasyarat "%s" tidak terpasang. Coba module:install untuk memasangkannya.'
@@ -49,3 +53,4 @@ messages:
     drupal-core: 'Inti Drupal'
     move-phar: 'Mengakses konsol dari manapun dalam sistem anda'
     quick-start: 'Unduh, install dan sajikan Drupal 8'
+    available-field-types: 'Available types: <comment>%s</comment>'

@@ -18,9 +18,9 @@ messages:
     username: 'Nama Pengguna'
     password: 'Kata Sandi'
     email: Surel
-    roles: 'Peran-peran'
+    roles: Peran-peran
     created: 'Dibuat pada'
-    status: 'Status'
+    status: Status
     user-created: 'Pengguna "%s" berhasil dibuat'
 examples:
     -

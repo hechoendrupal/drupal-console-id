@@ -16,6 +16,7 @@ messages:
     name: Nama
     invalid-vocabularies: 'Vocabulary "%s" tidak valid'
     created-terms: 'Terms "%s" berhasil dibuat'
+    error: 'Error creating terms: "%s"'
 examples:
     -
         description: 'Berikan nama istilah kosakata.'

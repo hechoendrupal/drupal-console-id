@@ -4,6 +4,8 @@ options:
     tar: 'Jika diisi, konfigurasi akan diekspor dalam bentuk berkas terarsip.'
     remove-uuid: 'Jika diisi, konfigurasi akan diekspor tanpa uuid.'
     remove-config-hash: 'Jika diisi, konfigurasi akan diekspor tanpa kunci hash bawaan situs.'
+questions:
+    directory: 'Enter the directory name to save the configuration files.'
 messages:
     directory: 'Konfigurasi telah di ekspor pada:'
     error: 'Sebuah eror terjadi ketika membuat direktori anda pada "%s"'

@@ -1,6 +1,6 @@
 options:
     env: 'Nama Environment'
-    no-debug: 'Matikan mode debug'
+    debug: 'Switches on debug mode'
     learning: 'Tampilkan hasil kode secara rinci'
     generate-chain: 'Tampilkan opsi dan argumen dari perintah dalam format YAML untuk dipakai di chain command (perintah rentetan)'
     generate-inline: 'Tampilkan opsi dan argumen dari perintah dalam format barisan perintah'
@@ -17,6 +17,7 @@ options:
     no-ansi: 'Matikan keluaran ANSI'
     no-interaction: 'Jangan tanya pertanyaan interaktif'
     check-fix: 'Usahakan untuk memperbaiki konfigurasi yang hilang.'
+    no-debug: 'Matikan mode debug'
 arguments:
     command: 'Perintah untuk dijalankan'
 messages:
@@ -29,6 +30,8 @@ messages:
     files:
         generated: 'File-file yang dihasilkan atau diperbarui'
         copied: 'File-file yang di-copy'
+    lines-code: 'Generated lines: %s'
+    path: 'Generation path'
     learning:
         route: "Route dibutuhkan untuk membuat halaman.\nSebuah route menghubungkan path URL ke sebuah controller. Route menentukan fungsi\n atau metode yang akan dijalankan ketika URL yang bersangkutan diakses.\nJika pemakai mengakses http://drupal8.dev/{{ route.path }}, sistem\nrouting akan mencari route dengan path itu. Dalam kasus ini, dia akan mencari route\nyang sama, dan memanggil _controller callback. Dalam kasus ini callback\nditentukan dengan nama kelas\n(\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\ndan metode (\"{{ route.method }}\")."
     autocomplete: "Bash atau Zsh: Tambahkan baris ini di file konfigurasi shell kamu:\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: Buat link simbolik\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
@@ -40,6 +43,9 @@ messages:
 errors:
     invalid-command: 'Perintah "%s" tidak dapat ditemukan.'
     renamed-command: 'Perintah "%s" telah diganti namanya, sebagai gantinya gunakan "%s".'
+    drush-command: 'Command "%s" is a Drush command (deprecated). Drupal Console equivalent "%s" was executed instead.'
+    statistics-failed: "The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.\nIf you want to enable it again, use the following command:\n\n<info>drupal settings:set statistics.enabled true</info>\n"
+    statistics-url-failed: "The Drupal console failed to send statistics.\nYou must configure it in the global config.yml, use the following command and choose your preference:\n\n<info>drupal init</info>"
 site:
     messages:
         path: 'Path situs'

@@ -1,5 +1,7 @@
 description: 'Menampilkan koneksi basis data'
 arguments:
+    key: 'Database key from settings.php'
+    target: 'Database target from settings.php'
     database: 'Key basis data dari settings.php'
 messages:
     database-not-found: 'Informasi koneksi basis data "%s" tidak ditemukan'

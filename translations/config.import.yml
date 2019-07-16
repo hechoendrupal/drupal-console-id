@@ -3,6 +3,9 @@ options:
     file: 'Path ke file arsip konfigurasi untuk diimpor.'
     directory: 'Path ke direktori konfigurasi untuk diimpor.'
     remove-files: 'Hapus file setelah sinkronisasi.'
+    skip-uuid: 'Skip uuid from files'
+questions:
+    directory: 'Enter the directory name to import the configuration files.'
 messages:
     config_files_imported: 'Daftar dari berkas konfigurasi.'
     imported: 'Konfigurasi berhasil diimpor.'

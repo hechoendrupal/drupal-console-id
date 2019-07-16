@@ -1,8 +1,9 @@
 description: 'Hapus percobaan gagal masuk untuk sebuah akun.'
 help: 'Perintah <info>user:login:clear:attempts</info> menghapus percobaan gagal masuk untuk sebuah akun.'
-options:
-    user-id: 'ID user.'
+arguments:
+    user: 'User name/id.'
 questions:
+    user: 'Enter User name/id'
     uid: 'Masukkan ID user.'
     numeric-uid: 'ID user harus berupa bilangan bulat.'
     invalid-uid: 'ID user harus lebih besar daripada nol.'

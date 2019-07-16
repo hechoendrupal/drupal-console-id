@@ -2,3 +2,5 @@ description: 'Daftar berkas chain yang tersedia.'
 messages:
     directory: Direktori
     file: 'Nama berkas chain.'
+    command: 'Command name.'
+    no-files: 'No chain files found.'

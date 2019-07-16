@@ -2,6 +2,7 @@ description: 'Hapus semua tabel pada basis data terpilih.'
 help: 'Perintah <info>database:drop</info> membantu anda menghapus tabel pada basis data.'
 arguments:
     database: 'Key basis data pada settings.php'
+    target: 'Database target from settings.php'
 question:
     drop-tables: 'Konfirmasi apakah anda ingin menghapus semua tabel yang ada pada basis data "%s"?'
 messages:
