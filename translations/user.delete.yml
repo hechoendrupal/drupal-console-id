@@ -2,19 +2,21 @@ description: 'Hapus pengguna pada aplikasi'
 help: 'Perintah <info>user:delete</info> membantu anda dalam menghapus pengguna.'
 welcome: 'Selamat datang pada penghapus pengguna pada Drupal'
 options:
-    user-id: 'ID pengguna yang ingin dihapus'
+    user: 'User name/id to be deleted'
     roles: 'Peran pengguna yang ingin dihapus'
+    user-id: 'ID pengguna yang ingin dihapus'
 questions:
-    user-id: 'ID user yang ingin dihapus (kosongkan untuk melewati)'
+    user: 'User name/id to be deleted (empty to skip)'
     roles: 'Pilih peran - peran pengguna yang ingin dihapus'
+    user-id: 'ID user yang ingin dihapus (kosongkan untuk melewati)'
 messages:
     user-id: 'ID pengguna'
     username: 'Nama Pengguna'
     user-deleted: 'Pengguna "%s" berhasil dihapus'
     users-deleted: 'Para pengguna "%s" berhasil dihapus'
 errors:
-    invalid-user-id: 'ID pengguna "%s" tidak valid'
     invalid-user: 'ID pengguna "%s" tidak valid'
+    invalid-user-id: 'ID pengguna "%s" tidak valid'
 examples:
     -
         description: 'Menghapus pengguna dengan menentukan id dan peran pengguna'
@@ -22,3 +24,6 @@ examples:
     -
         description: 'Menghapus pengguna dengan menentukan ID-nya'
         execution: "drupal user:delete  \\\n  --user-id=\"3\"\n"
+    -
+        description: 'Delete users with the role "authenticated"'
+        execution: "drupal user:delete  \\\n  --role=\"authenticated\"\n"

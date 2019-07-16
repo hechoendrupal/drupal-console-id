@@ -13,6 +13,9 @@ messages:
     set-inline-placeholders: 'lewati inline placeholders sebagai:'
     select-value-for-placeholder: 'Pilih nilai untuk placeholder %s'
     enter-value-for-placeholder: 'Masukkan nilai untuk placeholder %s'
+    legacy-inline: 'Update inline legacy placeholders from %{{name}} to {{name}}.'
+    legacy-environment: 'Update environment legacy placeholders from ${{(NAME}} or %env(NAME)% to {{env("NAME")}}.'
+    metadata-registration: "You should register your chain file as command by providing metadata, more info at:\n   https://docs.drupalconsole.com/en/chains/registering.html"
     missing_file: 'Anda harus menyediakan path dan nama berkas yang valid.'
     invalid_file: 'Berkas "%s" tidak ditemukan.'
     module_install: 'perintah module:install tidak dapat dijalankan di dalam rantai antrean dan harus dijalankan secara independen.'

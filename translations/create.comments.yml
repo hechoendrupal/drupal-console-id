@@ -28,6 +28,7 @@ messages:
     created: 'Waktu pembuatan'
     invalid-content-types: 'Tipe konten "%s" tidak valid'
     created-comments: 'Komentar "%s" berhasil dibuat'
+    error: 'Error creating comments: "%s"'
 examples:
     -
         description: 'Berikan node id dimana komentar akan dibuat.'

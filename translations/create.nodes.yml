@@ -7,6 +7,7 @@ options:
     limit: 'Berapa banyak node yang ingin anda buat'
     title-words: 'Jumlah kata maksimum pada judul node'
     time-range: 'Berapa jauh waktu kebelakang node ini diberikan tanggal'
+    revision: 'Create revisions'
 questions:
     content-type: 'Pilih tipe-tipe konten yang akan digunakan dalam pembuatan node'
     limit: 'Berapa banyak node yang akan dihasilkan'
@@ -19,6 +20,7 @@ questions:
         - '1 week ago (1 minggu lalu)'
         - '1 month ago (1 bulan lalu)'
         - '1 year ago (1 tahun lalu)'
+    revision: 'Do you want to add revisions?'
 messages:
     node-id: 'Id Node'
     content-type: 'Tipe konten'
@@ -26,6 +28,7 @@ messages:
     created: 'Tanggal pembuatan'
     invalid-content-types: 'Tipe konten "%s" tidak valid'
     created-nodes: 'Node "%s" berhasil dibuat'
+    error: 'Error creating nodes: "%s"'
 examples:
     -
         description: 'Berikan nama jenis konten.'

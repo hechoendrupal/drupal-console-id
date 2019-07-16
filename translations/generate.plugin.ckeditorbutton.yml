@@ -6,6 +6,8 @@ options:
     class: 'Nama kelas plugin'
     label: 'Label plugin'
     plugin-id: 'ID plugin. Catatan: Ini berhubungan pada nama plugin CKEditor. Ini merupakan argumen pertama pada fungsi CKEDITOR.plugins.add() pada berkas plugin.js.'
+    buttons: 'CKEditor buttons.'
+    button-properties: 'Enter a new button properties.'
     button-name: 'Nama tombol. Catatan: Ini berhubungan pada nama tombol CKEditor. Ini merupakan argumen pertama pada fungsi editor.ui.addButton() atau editor.ui.addRichCombo() pada berkas plugin.js.'
     button-icon-path: 'Path dari gambar tombol. Ini merupakan path ke icon/gambar dari tombol.'
 questions:
@@ -15,6 +17,8 @@ questions:
     plugin-id: 'Masukkan ID plugin. Catatan: Ini berhubungan pada nama plugin CKEditor. Ini merupakan argumen pertama pada fungsi CKEDITOR.plugins.add() pada berkas plugin.js.'
     button-name: 'Masukkan Nama tombol. Catatan: Ini berhubungan pada nama tombol CKEditor. Ini merupakan argumen pertama pada fungsi editor.ui.addButton() atau editor.ui.addRichCombo() pada berkas plugin.js.'
     button-icon-path: 'Masukkan path dari gambar tombol'
+    button-label: 'Enter the button label'
+    button-add: 'Do you want to add another button?'
 examples:
     -
         description: 'Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path'

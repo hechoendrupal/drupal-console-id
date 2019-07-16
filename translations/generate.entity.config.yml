@@ -1,5 +1,6 @@
 description: 'Hasilkan entitas konfigurasi baru'
 help: ''
+welcome: 'Welcome to the Drupal Config Entity generator'
 options:
     module: common.options.module
     entity-class: 'Kelas entitas konfigurasi.'

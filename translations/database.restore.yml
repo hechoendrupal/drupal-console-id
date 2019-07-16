@@ -1,6 +1,7 @@
 description: 'Mengembalikan struktur dan konten sebuah basis data.'
 arguments:
     database: 'Key basis data dari settings.php'
+    target: 'Database target from settings.php'
 options:
     file: 'Nama file backup basis data anda'
 messages:

@@ -1,6 +1,7 @@
 description: 'Menjalankan klien basis data apabila tersedia'
 arguments:
     database: 'Key basis data dari settings.php'
+    target: 'Database target from settings.php'
 messages:
     connection: 'Koneksi: "%s"'
 examples:

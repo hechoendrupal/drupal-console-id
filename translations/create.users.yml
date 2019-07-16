@@ -25,6 +25,7 @@ messages:
     username: 'Nama user'
     created: 'Tanggal pembuatan'
     created-users: 'Pengguna "%s" berhasil dibuat'
+    error: 'Error creating users: "%s"'
 examples:
     -
         description: 'Berikan peran pengguna.'

@@ -1,8 +1,6 @@
 description: 'Ekspor konfigurasi tunggal sebagai berkas yml.'
-arguments:
-    name: 'Configuration name.'
-    config-name: 'Nama konfigurasi.'
 options:
+    name: 'Configuration name.'
     include-dependencies: 'Ekspor prasyarat dari konfigurasi.'
     simple-configuration: 'Konfigurasi sederhana'
     optional: 'Ekspor konfigurasi sebagai sebuah konfigurasi YAML yang bersifat opsional pada modul anda.'

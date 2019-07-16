@@ -1,16 +1,22 @@
 description: 'Ekspor sebuah view menggunakan format YAML di dalam modul yang disediakan untuk digunakan kembali pada situs web yang lain.'
 messages:
-    view_exported: 'Sedang mengekspor view'
+    view-exported: 'View exported sucessfully'
     depencies-included: 'Prasyarat modul telah dimuat pada "%s"'
+    wrong-view: 'The view "%s" does not exist'
+    view_exported: 'Sedang mengekspor view'
 questions:
     view: 'View yang akan diekspor'
     optional-config: 'Ekspor view pada modul sebagai konfigurasi yang bersifat opsional'
     include-module-dependencies: 'Masukkan modul view prasyarat pada berkas modul YAML info'
+    remove-uuid: 'The view to be exported without uuid key.'
+    remove-config-hash: 'The view to be exported without the default site hash key.'
 arguments:
     view-id: 'ID view'
 options:
     optional-config: 'Ekspor view sebagai Konfigurasi YAML yang bersifat opsional pada modul anda'
     include-module-dependencies: 'Masukkan modul prasyarat pada berkas modul YAML info'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
 examples:
     -
         description: 'Sediakan id view'
@@ -18,3 +24,6 @@ examples:
     -
         description: 'Anda dapat menyediakan nilai interaktif seperti parameter.'
         execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies\n"
+    -
+        description: 'Export as config for the provided module, updating the module''s info.yml with any module dependencies from the view.'
+        execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies"

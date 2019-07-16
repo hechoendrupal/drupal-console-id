@@ -1,11 +1,14 @@
 description: 'Hasilkan sebuah entitas konten baru'
 help: ''
+welcome: 'Welcome to the Drupal Content Entity generator'
 options:
     module: common.options.module
     entity-class: 'Kelas entitas konten'
     entity-name: 'Nama entitas konten'
     label: Label
     has-bundles: 'Entity memiliki bundel'
+    has-forms: 'Entity has forms'
+    has-owner: 'Entity has owner'
     base-path: 'Path dasar untuk rute entitas konten'
     is-translatable: 'Entitas konten dapat diterjemahkan'
 questions:
@@ -14,6 +17,8 @@ questions:
     entity-name: 'Masukkan nama entitas konten baru anda'
     label: 'Masukkan label dari entitas konten baru anda'
     has-bundles: 'Apakah anda menginginkan entitas (konten) ini memiliki bundel'
+    has-forms: 'Do you want this (content) entity to have forms?'
+    has-owner: 'Do you want this (content) entity to have an owner?'
     base-path: 'Masukkan path dasar untuk rute entitas konten'
     is-translatable: 'Apakah entitas anda dapat diterjemahkan'
     revisionable: 'Is your entity revisionable'

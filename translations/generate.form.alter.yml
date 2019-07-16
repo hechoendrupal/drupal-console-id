@@ -1,7 +1,18 @@
 description: 'Hasilkan implementasi dari hook_form_alter atau hook_form_FORM_ID_alter'
 help: 'Perintah <info>"%s"</info> membantu anda menghasilkan sebuah "%s" baru'
+welcome: 'Welcome to the Drupal Form Alter generator'
 options:
+    module: 'The Module name.'
     form-id: 'ID formulir yang akan dirubah'
+    inputs: 'Create inputs in a form.'
+questions:
+    module: 'Enter the module name'
+    form-id: 'Enter the Form ID to alter'
+    type: 'Enter New field type'
+    label: 'Input label'
+    description: Description
+    default-value: 'Default value'
+    weight: 'Weight for input item'
 messages:
     inputs: "Anda dapat menambahkan kolom-kolom formulir untuk memodifikasi formulir.\nIni opsional, tekan <info>enter</info> untuk <info>melanjutkan</info>"
     loading-forms: 'Memuat definisi formulir dari modul Webprofiler'

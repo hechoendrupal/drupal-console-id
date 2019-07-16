@@ -8,12 +8,16 @@ arguments:
     key: Key
     value: Value
     config-name: 'Nama konfigurasi.'
+options:
+    key: Key
+    value: Value
 messages:
     configuration: 'Nama konfigurasi'
     configuration-key: 'key konfigurasi'
     original: 'Nilai asli'
     updated: 'Nilai timpaan'
     invalid-name: 'Konfigurasi objek "%s" tidak terdaftar'
+    invalid-config-file: 'Config file does not exist.'
 examples:
     -
         description: 'Atur flood limit pada modul Contact menjadi 10.'

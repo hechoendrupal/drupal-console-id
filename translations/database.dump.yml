@@ -1,9 +1,11 @@
 description: 'Dump struktur dan kontan dari basis data'
 arguments:
     database: 'Key Basis data dari settings.php'
+    target: 'Database target from settings.php'
 options:
     file: 'Nama berkas untuk backup basis data anda'
     gz: 'Berikan opsi ini jika anda menginginkan file hasil sql gzip'
+    exclude-cache: 'Pass this option if you want to exclude cache tables.'
 messages:
     success: 'Database telah terekspor ke:'
 examples:
